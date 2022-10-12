@@ -1,0 +1,14 @@
+.header__language {
+  text-decoration: none;
+  color: #fff;
+  opacity: .4;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1199px) {
+  .header__language {
+    font-size: 14px;
+  }
+}

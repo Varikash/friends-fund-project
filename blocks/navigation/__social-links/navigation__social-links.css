@@ -1,0 +1,9 @@
+.navigation__social-links {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 22px;
+}

@@ -1,0 +1,18 @@
+.navigation {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 63px;
+}
+
+@media screen and (max-width: 1150px) {
+  .navigation {
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 969px) {
+  .navigation {
+    display: none;
+  }
+}

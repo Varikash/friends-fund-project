@@ -1,0 +1,23 @@
+.header {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #54A8B6;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 18px;
+  column-gap: 40px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1244px) {
+  .header {
+    padding-left: 10px;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 969px) {
+  .header {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,19 @@
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 969px) {
+  .menu-icon {
+    box-sizing: border-box;
+    display: block;
+    min-width: 24px;
+    height: 18px;
+    cursor: pointer;
+    align-self: center;
+    background-image: url(../../images/menu-icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+  }
+}
