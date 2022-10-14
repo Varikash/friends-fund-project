@@ -1,0 +1,5 @@
+.slider__items{
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
