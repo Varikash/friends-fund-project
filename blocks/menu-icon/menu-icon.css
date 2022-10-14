@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 969px) {
+@media screen and (max-width: 1049px) {
   .menu-icon {
     box-sizing: border-box;
     display: block;

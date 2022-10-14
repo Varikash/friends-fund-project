@@ -15,7 +15,7 @@
   color: #EEB250;
 }
 
-@media screen and (max-width: 969px) {
+@media screen and (max-width: 1049px) {
   .header__button {
     margin-left: auto;
   }

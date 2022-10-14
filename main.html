@@ -10,22 +10,21 @@
 <body class="root">
   <div class="page">
     <header class="header header_position_sticky">
-      <button class="menu-icon">
-      </button>
+      <button class="menu-icon"></button>
       <img src="./images/Logo.svg" alt="logo" class="header__logo">
       <nav class="navigation">
-        <ul class="navigation__links navigation__links_direction_row navigation__links_col-gap_max">
-          <li><a href="#" class="navigation__link link_hover_on">Фонд</a></li>
-          <li><a href="#" class="navigation__link link_hover_on">Программы</a></li>
-          <li><a href="#" class="navigation__link link_hover_on">Для НКО</a></li>
-          <li><a href="#" class="navigation__link link_hover_on">Для бизнеса</a></li>
-          <li><a href="#" class="navigation__link link_hover_on">Блог</a></li>
-          <li><a href="#" class="navigation__link link_hover_on">Партнёры</a></li>
-          <li><a href="#" class="navigation__link link_hover_on">Контакты</a></li>
+        <ul class="navigation-links navigation-links_direction_row navigation-links_col-gap_max">
+          <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_standart link_hover_on">Фонд</a></li>
+          <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_standart link_hover_on">Программы</a></li>
+          <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_standart link_hover_on">Для НКО</a></li>
+          <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_standart link_hover_on">Для бизнеса</a></li>
+          <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_standart link_hover_on">Блог</a></li>
+          <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_standart link_hover_on">Партнёры</a></li>
+          <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_standart link_hover_on">Контакты</a></li>
         </ul>
         <ul class="navigation__social-links">
-          <li><a href="#" class="navigation__social-link link_hover_on"><img src="./images/vk.svg" alt="vk"></a></li>
-          <li><a href="#" class="navigation__social-link link_hover_on"><img src="./images/telegram.svg" alt="telegram"></a></li>
+          <li><a href="#" class="navigation__social-link link_hover_on"><img src="./images/vk.svg" alt="вк"></a></li>
+          <li><a href="#" class="navigation__social-link link_hover_on"><img src="./images/telegram.svg" alt="телеграм"></a></li>
         </ul>
       </nav>
       <ul class="header__languages">
@@ -33,6 +32,7 @@
         <li><a href="#" class="header__language link_hover_on">En</a></li>
       </ul>
       <button class="header__button"><span class="header__button-text link_hover_on">Помочь фонду</span></button>
+      
     </header>
     <main>
       <section class="heroes"></section>
@@ -49,31 +49,28 @@
       <section class="donation"></section>
     </main>
     <footer class="footer"></footer>
-    <div class="popup-menu-1">
-      <nav>
-        <ul class="navigation__links navigation__links_direction_col navigation__links_row-gap_max">
-          <li><a href="#">Фонд</a></li>
-          <li><a href="#">Программы</a></li>
-          <li><a href="#">Для НКО</a></li>
-          <li><a href="#">Для бизнеса</a></li>
-          <li><a href="#">Блог</a></li>
-          <li><a href="#">Партнёры</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
-    </div>
   </div>
-  <div class="popup-menu-2">
+  <div class="popup-menu-1">
+    <button class="popup-menu-1__close-btn"></button>
     <nav>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+      <ul class="navigation-links navigation-links_direction_col navigation-links_row-gap_max">
+        <li><a href="#" class="navigation-link navigation-link_color_black navigation-link_fz_heavy link_hover_on">Фонд</a></li>
+        <li><a href="#" class="navigation-link navigation-link_color_black navigation-link_fz_heavy link_hover_on">Программы</a></li>
+        <li><a href="#" class="navigation-link navigation-link_color_black navigation-link_fz_heavy link_hover_on">Для НКО</a></li>
+        <li><a href="#" class="navigation-link navigation-link_color_black navigation-link_fz_heavy link_hover_on">Для бизнеса</a></li>
+        <li><a href="#" class="navigation-link navigation-link_color_black navigation-link_fz_heavy link_hover_on">Блог</a></li>
+        <li><a href="#" class="navigation-link navigation-link_color_black navigation-link_fz_heavy link_hover_on">Партнёры</a></li>
+        <li><a href="#" class="navigation-link navigation-link_color_black navigation-link_fz_heavy link_hover_on">Контакты</a></li>
       </ul>
     </nav>
+    <ul class="popup-menu-1__languages">
+      <li class="popup-menu-1__language popup-menu-1__language_active link_hover_on">Ру</li>
+      <li class="popup-menu-1__language link_hover_on">En</li>
+    </ul>
+    <ul class="popup-menu-1__social-links">
+      <li><a href="#" class="popup-menu-1__social-link link_hover_on"><img src="./images/vk-popup.svg" alt="вк"></a></li>
+      <li><a href="#" class="popup-menu-1__social-link link_hover_on"><img src="./images/telegram-popup.svg" alt="телеграм"></a></li>
+    </ul>
   </div>
   <script src="./scripts/main.js"></script>
 </body>

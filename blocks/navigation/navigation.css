@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 969px) {
+@media screen and (max-width: 1049px) {
   .navigation {
     display: none;
   }
