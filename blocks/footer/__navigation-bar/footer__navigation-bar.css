@@ -1,0 +1,5 @@
+.footer__navigation-bar {
+  display: flex;
+  padding-bottom: 42px;
+  border-bottom: .5px solid rgba(250, 250, 250, .2);
+}

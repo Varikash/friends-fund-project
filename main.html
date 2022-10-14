@@ -12,7 +12,7 @@
     <header class="header header_position_sticky">
       <button class="menu-icon"></button>
       <img src="./images/Logo.svg" alt="logo" class="header__logo">
-      <nav class="navigation">
+      <nav class="navigation navigation_disabled">
         <ul class="navigation-links navigation-links_direction_row navigation-links_col-gap_max">
           <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_standart link_hover_on">Фонд</a></li>
           <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_standart link_hover_on">Программы</a></li>
@@ -32,7 +32,6 @@
         <li><a href="#" class="header__language link_hover_on">En</a></li>
       </ul>
       <button class="header__button"><span class="header__button-text link_hover_on">Помочь фонду</span></button>
-      
     </header>
     <main>
       <section class="heroes"></section>
@@ -48,7 +47,47 @@
       <section class="question"></section>
       <section class="donation"></section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__navigation-bar">
+        <img src="./images/footer-logo.svg" alt="logo" class="footer__logo">
+        <nav class="footer__navigation navigation">
+          <ul class="navigation-links navigation-links_direction_row footer_navigation-gap_standart">
+            <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_footer link_hover_on">Фонд</a></li>
+            <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_footer link_hover_on">Программы</a></li>
+            <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_footer link_hover_on">Для НКО</a></li>
+            <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_footer link_hover_on">Для бизнеса</a></li>
+            <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_footer link_hover_on">Блог</a></li>
+            <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_footer link_hover_on">Партнёры</a></li>
+            <li><a href="#" class="navigation-link navigation-link_color_white navigation-link_fz_footer link_hover_on">Контакты</a></li>
+            <li><a href="#" class="navigation-link navigation-link_color_gold navigation-link_fz_footer link_hover_on">Помочь фонду</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__contact-bar">
+        <ul class="footer__contact-list">
+          <li><p class="footer__contact">Написать нам:&ensp;<a href="mailto:friends@friends-foundation.com" class="footer__link link_hover_on">friends@friends-foundation.com</a></p></li>
+          <li><p class="footer__contact">Позвонить нам:&ensp;<a href="tel:+79772770717" class="footer__link link_hover_on">+7 977 277-07-17</a></p></li>
+          <li class="footer__bullet"><p class="footer__contact footer__contact_position_centered">Мы в соцсетях:&ensp;</p>
+                <div class="footer__contact-links">
+                  <a href="#"><img src="./images/vk_footer.svg" alt="вк" class="footer__contact-link link_hover_on"></a>
+                  <a href="#"><img src="./images/tg_footer.svg" alt="телеграм" class="footer__contact-link link_hover_on"></a>
+                </div>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__rights">
+        <div class="footer__age">
+          <img src="./images/age-sign_footer.svg" alt="+18">
+          <p class="footer__age-text">&copy;2022 Фонд "Друзья" Все права защищены</p>
+        </div>
+          <p class="footer__rights-description">Исключительные права на&nbsp;фото- и&nbsp;иные материалы принадлежат авторам. 
+            Любое размещение материалов на&nbsp;сторонних ресурсах необходимо согласовывать с&nbsp;правообладателями.
+          </p>
+
+
+        <img src="./images/dun&bradstreet.svg" alt="dun&bradstreet">
+      </div>
+    </footer>
   </div>
   <div class="popup-menu-1 popup">
     <button class="popup-menu-1__close-btn"></button>

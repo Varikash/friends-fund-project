@@ -7,6 +7,7 @@
 @import url(../blocks/menu-icon/menu-icon.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/navigation_disabled.css);
 @import url(../blocks/navigation-links/navigation-links.css);
 @import url(../blocks/navigation-links/_row-gap/navigation-links_row-gap_max.css);
 @import url(../blocks/navigation-links/_row-gap/navigation-links_row-gap_min.css);
@@ -17,8 +18,10 @@
 @import url(../blocks/navigation-link/__subtext/navigation-link__subtext.css);
 @import url(../blocks/navigation-link/_color/navigation-link_color_black.css);
 @import url(../blocks/navigation-link/_color/navigation-link_color_white.css);
+@import url(../blocks/navigation-link/_color/navigation-link_color_gold.css);
 @import url(../blocks/navigation-link/_fz/navigation-link_fz_standart.css);
 @import url(../blocks/navigation-link/_fz/navigation-link_fz_heavy.css);
+@import url(../blocks/navigation-link/_fz/navigation-link_fz_footer.css);
 @import url(../blocks/navigation/__social-links/navigation__social-links.css);
 @import url(../blocks/navigation/__social-link/navigation__social-link.css);
 @import url(../blocks/link/_hover/link_hover_on.css);
@@ -39,3 +42,18 @@
 @import url(../blocks/popup-menu-1/__social-link/popup-menu-1__social-link.css);
 @import url(../blocks/block/_position/block_position_centered.css);
 @import url(../blocks/popup-menu-2/__backward/popup-menu-2__backward.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__navigation-bar/footer__navigation-bar.css);
+@import url(../blocks/footer/__contact-bar/footer__contact-bar.css);
+@import url(../blocks/footer/__contact-list/footer__contact-list.css);
+@import url(../blocks/footer/__rights/footer__rights.css);
+@import url(../blocks/footer/_navigation-gap/footer_navigation-gap_standart.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__contact/_position/footer__contact_position_centered.css);
+@import url(../blocks/footer/__contact-links/footer__contact-links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__bullet/footer__bullet.css);
+@import url(../blocks/footer/__age/footer__age.css);
+@import url(../blocks/footer/__age-text/footer__age-text.css);
+@import url(../blocks/footer/__rights-description/footer__rights-description.css);
