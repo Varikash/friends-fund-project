@@ -1,0 +1,8 @@
+.navigation-link__subtext {
+  margin: 0;
+  max-width: 280px;
+  color: #6B6B6B;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+}
