@@ -39,3 +39,5 @@
 @import url(../blocks/popup-menu-1/__social-link/popup-menu-1__social-link.css);
 @import url(../blocks/block/_position/block_position_centered.css);
 @import url(../blocks/popup-menu-2/__backward/popup-menu-2__backward.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__navigation-bar/footer__navigation-bar.css);
