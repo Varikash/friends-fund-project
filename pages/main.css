@@ -63,3 +63,5 @@
 @import url(../blocks/slider/__title/_size/slider__title_size_l.css);
 @import url(../blocks/slider/__description/_size/slider__description_size_l.css);
 @import url(../blocks/slider/__description/_size/slider__description_size_m.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__navigation-bar/footer__navigation-bar.css);
