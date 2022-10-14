@@ -35,7 +35,47 @@
       
     </header>
     <main>
-      <section class="heroes"></section>
+      <section class="heroes">
+        <div class="slider" data-slider>
+          <div class="slider__container">
+            <div class="slider__items">
+              <div class="slider__item slider__item_picture_help">
+                <div class="slider__text-container">
+                  <h2 class="slider__title slider__title_size_m">Мы <span class="slider__title_italic  ">помогаем</span> другим,
+                    чтобы они <span class="slider__title_italic">помогали</span> другим</h2>
+                  <p class="slider__description slider__description_size_m">Фонд «Друзья» — это фонд для тех, кто хочет приносить пользу другим людям ничего за это не беря.</p>
+                  <input class="slider__button" type="button" value="Наши программы">
+                </div>
+              </div>
+              <div class="slider__item slider__item_picture_school">
+                <div class="slider__text-container">
+                  <h2 class="slider__title slider__title_size_l">Создаем настоящую <span class="slider__title_italic">школу, институт</span> благотворительности</h2>
+                  <p class="slider__description slider__description_size_l">Московская школа профессиональной филантропии — это фактически  акселератор НКО-проектов, который создает сообщество профессионалов.</p>
+                </div>
+              </div>
+              <div class="slider__item slider__item_picture_experience">
+                <div class="slider__text-container">
+                  <h2 class="slider__title slider__title_size_s">Профессионализм и опыт в <span class="slider__title_italic">дар</span></h2>
+                  <p class="slider__description slider__description_size_m" >Платформа интеллектуального волонтерства ProCharity &mdash; cкорая интеллектуальная помощь для благотворительных фондов.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <button class="slider__control" data-slide="prev">
+            <span class="slider__arrow">Go Left</span>
+          </button>
+          <button class="slider__control" data-slide="next">
+            <span class="slider__arrow">Go Right</span>
+          </button>
+    
+          <ol class="slider__indicators">
+            <li class="slider__indicator" data-slide-to="0"></li>
+            <li class="slider__indicator" data-slide-to="1"></li>
+            <li class="slider__indicator" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </section>
       <section class="about"></section>
       <section class="programms"></section>
       <section class="values"></section>
@@ -102,5 +142,6 @@
     </ul>
   </div>
   <script src="./scripts/main.js"></script>
+  <script src="./scripts/slider.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,24 @@
+.slider__text-container{
+    padding-left: 123px;
+    padding-top: 165px;
+}
+
+@media screen and (max-width: 720px) {
+    .slider__text-container{
+        padding: 0;
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .slider__text-container{
+        display:block;
+        padding: 0;
+        padding-left: 25px;
+        padding-top: 42px;
+        max-width: 324px;
+    }
+}
