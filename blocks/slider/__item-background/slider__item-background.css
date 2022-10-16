@@ -1,0 +1,8 @@
+.slider__item-background{
+    background: #F8F8F8;
+    width: 100%;
+    min-height: inherit;
+    position: absolute;
+    bottom: 60px;
+    overflow:hidden;
+}

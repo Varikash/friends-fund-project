@@ -1,0 +1,19 @@
+.slider__photo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .slider__photo{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .slider__photo{
+        left: 104px;
+        top: 207px;
+        width: 100%;
+    }
+}

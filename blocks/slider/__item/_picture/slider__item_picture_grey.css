@@ -1,0 +1,14 @@
+.slider__item_picture_grey{
+    background-color: #fff;
+}
+
+/* .slider__item_picture_grey::after {
+    content: '';
+    background: #2A2C2F;
+    opacity: 0.1;
+    width: 100%;
+    min-height: inherit;
+    position: absolute;
+    bottom: 60px;
+    overflow:hidden;
+} */

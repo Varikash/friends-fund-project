@@ -1,0 +1,23 @@
+.slider__title_theme_dark{
+    color: #000;
+    font-size: 62px;
+    line-height: 66px;
+    max-width: 770px;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 1180px) {
+    .slider__title_theme_dark{
+        max-width: 350px;
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider__title_theme_dark{
+        max-width: 284px;
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
