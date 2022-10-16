@@ -53,9 +53,13 @@
 @import url(../blocks/slider/__item/_picture/slider__item_picture_experience.css);
 @import url(../blocks/slider/__item/_picture/slider__item_picture_help.css);
 @import url(../blocks/slider/__item/_picture/slider__item_picture_school.css);
+@import url(../blocks/slider/__item/_picture/slider__item_picture_grey.css);
+@import url(../blocks/slider/__photo/slider__photo.css);
 @import url(../blocks/slider/__title/slider__title.css);
-@import url(../blocks/slider/__title/italic/slider__title_italic.css);
+@import url(../blocks/slider/__title/_theme/slider__title_theme_dark.css);
+@import url(../blocks/slider/__title/_italic/slider__title_italic.css);
 @import url(../blocks/slider/__description/slider__description.css);
+@import url(../blocks/slider/__description/_theme/slider__description_theme_dark.css);
 @import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/slider/__text-container/slider__text-container.css);
 @import url(../blocks/slider/__title/_size/slider__title_size_s.css);
@@ -63,5 +67,9 @@
 @import url(../blocks/slider/__title/_size/slider__title_size_l.css);
 @import url(../blocks/slider/__description/_size/slider__description_size_l.css);
 @import url(../blocks/slider/__description/_size/slider__description_size_m.css);
+@import url(../blocks/slider/__description/_bold/slider__description_bold.css);
+@import url(../blocks/slider/__item-background/slider__item-background.css);
+@import url(../blocks/friends/friends.css);
+@import url(../blocks/friends/__title/friends__title.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__navigation-bar/footer__navigation-bar.css);
