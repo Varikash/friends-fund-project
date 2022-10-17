@@ -1,0 +1,6 @@
+.footer__age {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  white-space: nowrap;
+}

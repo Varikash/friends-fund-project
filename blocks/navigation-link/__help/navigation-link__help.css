@@ -1,0 +1,7 @@
+@media screen and (max-width: 1119px) {
+  .navigation-link__help {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}

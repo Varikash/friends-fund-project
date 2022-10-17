@@ -1,0 +1,5 @@
+.footer__contact_position_centered {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
