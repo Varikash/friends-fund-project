@@ -5,3 +5,10 @@
   flex-direction: column;
   padding: 141px 124px 0 124px;
 }
+
+@media screen and (max-width: 1119px) {
+  .footer {
+    min-width: 375px;
+    padding: 25px 24px 0 24px;
+  }
+}

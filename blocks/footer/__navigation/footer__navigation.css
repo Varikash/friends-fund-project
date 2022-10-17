@@ -1,3 +1,10 @@
 .footer__navigation {
+  padding: 0;
   margin-left: auto;
+}
+
+@media screen and (max-width: 1119px) {
+  .footer__navigation {
+    margin: 0;
+  }
 }
