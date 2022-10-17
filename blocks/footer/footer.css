@@ -1,7 +1,9 @@
 .footer {
+<<<<<<< HEAD
   background-color: #302F2D;
   display: flex;
   flex-direction: column;
+=======
   box-sizing: border-box;
   background-color: #302F2D;
   display: flex;
@@ -14,4 +16,5 @@
     min-width: 375px;
     padding: 25px 24px 0 24px;
   }
+>>>>>>> feature/footer
 }
