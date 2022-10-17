@@ -1,0 +1,9 @@
+@media screen and (max-width: 399px) {
+  .navigation-links_status_mobile {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(auto-fill, auto);
+    row-gap: 16px;
+    grid-auto-flow: dense;
+  }
+}

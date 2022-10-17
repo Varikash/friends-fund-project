@@ -1,0 +1,7 @@
+.footer__contact-list {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  column-gap: 64px;
+}

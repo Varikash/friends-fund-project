@@ -1,3 +1,12 @@
 .footer__navigation-bar {
-  
+  display: flex;
+  padding-bottom: 42px;
+  border-bottom: .5px solid rgba(250, 250, 250, .2);
+}
+
+@media screen and (max-width: 1119px) {
+  .footer__navigation-bar {
+    flex-direction: column;
+    row-gap: 25px;
+  }
 }
