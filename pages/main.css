@@ -44,7 +44,6 @@
 @import url(../blocks/popup-menu-1/__social-link/popup-menu-1__social-link.css);
 @import url(../blocks/block/_position/block_position_centered.css);
 @import url(../blocks/popup-menu-2/__backward/popup-menu-2__backward.css);
-<<<<<<< HEAD
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__container/slider__container.css);
 @import url(../blocks/slider/__control/slider__control.css);
@@ -79,7 +78,6 @@
 @import url(../blocks/friends/__title/friends__title.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__navigation-bar/footer__navigation-bar.css);
-=======
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__navigation-bar/footer__navigation-bar.css);
@@ -96,4 +94,3 @@
 @import url(../blocks/footer/__age/footer__age.css);
 @import url(../blocks/footer/__age-text/footer__age-text.css);
 @import url(../blocks/footer/__rights-description/footer__rights-description.css);
->>>>>>> feature/footer
