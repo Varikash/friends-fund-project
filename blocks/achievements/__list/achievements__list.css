@@ -1,0 +1,15 @@
+.achievements__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media screen and (max-width: 999px) {
+  .achievements__list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

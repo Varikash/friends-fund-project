@@ -76,6 +76,13 @@
 @import url(../blocks/slider/__item-background/slider__item-background.css);
 @import url(../blocks/friends/friends.css);
 @import url(../blocks/friends/__title/friends__title.css);
+
+@import url(../blocks/achievements/achievements.css);
+@import url(../blocks/achievements/__list/achievements__list.css);
+@import url(../blocks/achievements/__text/achievements__text.css);
+@import url(../blocks/achievements/__text/_weight/achievements__text_weight_bold.css);
+@import url(../blocks/achievements/__digits/achievements__digit.css);
+
 @import url(../blocks/footer/__navigation-bar/footer__navigation-bar.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);

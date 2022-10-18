@@ -4,3 +4,9 @@
   line-height: 18.2px;
   color: #999;
 }
+
+@media screen and (max-width: 500px) {
+  .footer__age-text {
+    font-size: 12px;
+  }
+}
