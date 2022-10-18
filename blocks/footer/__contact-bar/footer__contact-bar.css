@@ -6,3 +6,11 @@
   padding-top: 31px;
   padding-bottom: 31px;
 }
+
+@media screen and (max-width: 1119px) {
+  .footer__contact-bar {
+    justify-content: flex-start;
+    padding-top: 24px;
+    padding-bottom: 27px;
+  }
+}

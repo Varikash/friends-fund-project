@@ -1,0 +1,10 @@
+.footer__text {
+  display: flex;
+  column-gap: 108px;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__text {
+    column-gap: 35px;
+  }
+}

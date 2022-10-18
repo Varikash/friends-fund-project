@@ -76,9 +76,7 @@
 @import url(../blocks/slider/__item-background/slider__item-background.css);
 @import url(../blocks/friends/friends.css);
 @import url(../blocks/friends/__title/friends__title.css);
-@import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__navigation-bar/footer__navigation-bar.css);
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__navigation-bar/footer__navigation-bar.css);
@@ -95,3 +93,4 @@
 @import url(../blocks/footer/__age/footer__age.css);
 @import url(../blocks/footer/__age-text/footer__age-text.css);
 @import url(../blocks/footer/__rights-description/footer__rights-description.css);
+@import url(../blocks/footer/__text/footer__text.css);

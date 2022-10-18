@@ -1,9 +1,6 @@
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 1119px) {
   .navigation-links_status_mobile {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(auto-fill, auto);
+    flex-wrap: wrap;
     row-gap: 16px;
-    grid-auto-flow: dense;
   }
 }

@@ -2,3 +2,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 1119px) {
+  .navigation-links_direction_row {
+    justify-content: stretch;
+  }
+  
+}
