@@ -1,2 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+
+
+@import url(../blocks/achievements/achievements.css);
+@import url(../blocks/achievements/__list/achievements__list.css);
+@import url(../blocks/achievements/__text/achievements__text.css);
+@import url(../blocks/achievements/__text/_weight/achievements__text_weight_bold.css);
+@import url(../blocks/achievements/__digits/achievements__digit.css);
