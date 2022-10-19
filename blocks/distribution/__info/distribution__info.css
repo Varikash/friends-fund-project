@@ -1,0 +1,11 @@
+.distribution__info {
+  display: flex;
+  flex-direction: column;
+  padding: 43px 0 43px 125px;
+}
+
+@media screen and (max-width: 768px){
+  .distribution__info {
+    padding: 40px 24px 36px;
+  }
+}

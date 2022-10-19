@@ -1,0 +1,19 @@
+.blog {
+  margin: 0 124px;
+  margin-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .page {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Inter', 'Arial', sans-serif;
+} */
+
+@media screen and (max-width: 426px) {
+  .blog {
+    margin:0 16px;
+  }
+}

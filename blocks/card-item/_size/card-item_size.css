@@ -1,0 +1,6 @@
+@media screen and (max-width: 426px) {
+    .card-item_size {
+      width: 330px;
+      height: 216px;
+    }
+  }

@@ -1,0 +1,17 @@
+.blog__link {
+  margin: 0 auto;
+  display: block;
+  background-color: #F8F8F8;
+  padding: 18px 110px;
+  text-decoration: none;
+  color: black;
+  border-radius: 56px;
+}
+
+@media screen and (max-width: 426px) {
+  .blog__link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+.donation__donat-button {
+  padding: 18px 209px;
+  background-color: #EEB250;
+  border: 0;
+  border-radius: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  margin: 45px 0 55px;
+}
+
+@media screen and (max-width: 601px) {
+  .donation__donat-button {
+    padding: 18px 90px;
+    margin: 32px 0 40px;
+  }
+}

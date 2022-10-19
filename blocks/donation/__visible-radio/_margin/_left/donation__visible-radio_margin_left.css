@@ -1,0 +1,10 @@
+.donation__visible-radio_margin_left {
+  margin-left: 56px;
+  margin-right: -30px;
+}
+
+@media screen and (max-width: 555px) {
+  .donation__visible-radio_margin_left {
+    margin-left: 24px;
+  }
+}

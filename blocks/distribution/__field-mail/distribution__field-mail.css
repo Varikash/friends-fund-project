@@ -1,0 +1,16 @@
+.distribution__field-mail {
+  max-width: 328px;
+  border: 0;
+  border-radius: 56px;
+  padding: 18px 131px 18px 32px;
+  margin-right: 16px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 768px){
+  .distribution__field-mail {
+    padding-right: 100px;
+    margin: 0 24px 16px;
+  }
+}

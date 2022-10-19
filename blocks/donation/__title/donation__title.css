@@ -1,0 +1,13 @@
+.donation__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 26px;
+  margin: 56px 0 0;
+}
+
+@media screen and (max-width: 426px) {
+  .donation__title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}

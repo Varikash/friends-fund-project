@@ -1,0 +1,5 @@
+.donation__item_el_donation-time:checked + .donation__visible-radio {
+  background-color: #82607D;
+  color: #F8F8F8;
+  transition: background-color 2s;
+}
