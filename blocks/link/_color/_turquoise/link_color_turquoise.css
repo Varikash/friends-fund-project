@@ -1,0 +1,7 @@
+.link_color_turquoise {
+  transition: .5s;
+}
+
+.link_color_turquoise:hover {
+  color: #54A8B6;
+}

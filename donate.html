@@ -69,7 +69,18 @@
       <section class="helpful"></section>
       <section class="tell-about"></section>
       <section class="contact"></section>
-      <section class="distribution"></section>
+      <section class="distribution">
+        <div class="distribution__info">
+          <h3 class="distribution__title">Подпишитесь на новостную <br> рассылку/вебинары</h3>
+          <p class="distribution__subtitle">и получайте первыми наши новости и приглашения <br> на семинары/вебинары</p>
+        </div>
+        <form class="distribution__form" name="distribution-form" id="distribution-form" action="#">
+          <fieldset class="distribution__fieldset">
+            <input type="text" class="distribution__field-mail" id="field-mail" name="field-mail" placeholder="&#9993; Введите ваш e-mail" value=""> <!-- доделать крестик очистки поля-->
+          </fieldset>
+          <button class="distribution__submit-button" type="submit" value="Подписаться" id="distribution-button">Подписаться</button>
+        </form>
+      </section>
     </main>
     <footer class="footer"></footer>
   </div>
