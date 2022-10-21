@@ -1,0 +1,11 @@
+.trust{
+    margin: 0 124px;
+    padding-bottom: 96px;
+}
+
+@media screen and (max-width: 575px) {
+    .trust {
+        margin: 0 16px;
+        padding-bottom: 56px;
+    }
+}
