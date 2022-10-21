@@ -1,0 +1,10 @@
+.slider__item_logo_ey{
+    background-image: url(../../../../images/trust.svg);
+    background-position-x: -190px;
+}
+
+@media screen and (max-width: 575px) {
+    .slider__item_logo_ey{
+        background-position-x: -118px;
+    }
+}
