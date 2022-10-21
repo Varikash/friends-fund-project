@@ -27,3 +27,12 @@
 @import url(../blocks/achievements/__text/achievements__text.css);
 @import url(../blocks/achievements/__text/_weight/achievements__text_weight_bold.css);
 @import url(../blocks/achievements/__digits/achievements__digit.css);
+
+@import url(../blocks/distribution/distribution.css);
+@import url(../blocks/distribution/__info/distribution__info.css);
+@import url(../blocks/distribution/__title/distribution__title.css);
+@import url(../blocks/distribution/__subtitle/distribution__subtitle.css);
+@import url(../blocks/distribution/__form/distribution__form.css);
+@import url(../blocks/distribution/__fieldset/distribution__fieldset.css);
+@import url(../blocks/distribution/__field-mail/distribution__field-mail.css);
+@import url(../blocks/distribution/__submit-button/distribution__submit-button.css);

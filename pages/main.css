@@ -27,6 +27,7 @@
 @import url(../blocks/navigation/__social-links/navigation__social-links.css);
 @import url(../blocks/navigation/__social-link/navigation__social-link.css);
 @import url(../blocks/link/_hover/link_hover_on.css);
+@import url(../blocks/link/_color/_turquoise/link_color_turquoise.css);
 @import url(../blocks/header/__languages/header__languages.css);
 @import url(../blocks/header/__language/header__language.css);
 @import url(../blocks/header/__language/_active/header__language_active.css);
@@ -123,15 +124,17 @@
 @import url(../blocks/blog/__heading/blog__heading.css);
 @import url(../blocks/blog/__heading-link/blog__heading-link.css);
 @import url(../blocks/blog/__description/blog__description.css);
+@import url(../blocks/blog/__link/blog__link.css);
+
 @import url(../blocks/card-item/card-item.css);
 @import url(../blocks/card-item/__info/card-item__info.css);
 @import url(../blocks/card-item/__data/card-item__data.css);
 @import url(../blocks/card-item/__title/card-item__title.css);
 @import url(../blocks/card-item/__description/card-item__description.css);
 @import url(../blocks/card-item/__link/card-item__link.css);
-@import url(../blocks/blog/__link/blog__link.css);
 @import url(../blocks/card-item/__inscription/card-item__inscription.css);
 @import url(../blocks/card-item/_size/card-item_size.css);
+
 @import url(../blocks/distribution/distribution.css);
 @import url(../blocks/distribution/__info/distribution__info.css);
 @import url(../blocks/distribution/__title/distribution__title.css);
@@ -140,6 +143,7 @@
 @import url(../blocks/distribution/__fieldset/distribution__fieldset.css);
 @import url(../blocks/distribution/__field-mail/distribution__field-mail.css);
 @import url(../blocks/distribution/__submit-button/distribution__submit-button.css);
+
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/donation/__text/donation__text.css);
 @import url(../blocks/donation/__text/_italic/donation__text_italic.css);
