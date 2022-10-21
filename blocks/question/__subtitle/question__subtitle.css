@@ -1,0 +1,19 @@
+.question__subtitle{
+    color: #71BBCA;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.question__subtitle:last-child{
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .question__subtitle {
+        font-size: 32px;
+    }
+}

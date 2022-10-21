@@ -88,6 +88,9 @@
 @import url(../blocks/friends/__title/friends__title.css);
 @import url(../blocks/trust/trust.css);
 @import url(../blocks/trust/__title/trust__title.css);
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/__title/question__title.css);
+@import url(../blocks/question/__subtitle/question__subtitle.css);
 
 @import url(../blocks/achievements/achievements.css);
 @import url(../blocks/achievements/__list/achievements__list.css);
