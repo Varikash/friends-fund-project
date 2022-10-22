@@ -128,6 +128,7 @@
 @import url(../blocks/blog/__heading-link/blog__heading-link.css);
 @import url(../blocks/blog/__description/blog__description.css);
 @import url(../blocks/blog/__link/blog__link.css);
+@import url(../blocks/blog/__slider/blog__slider.css);
 
 @import url(../blocks/card-item/card-item.css);
 @import url(../blocks/card-item/__info/card-item__info.css);
