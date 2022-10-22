@@ -1,0 +1,10 @@
+.info-block_position_left {
+  justify-content: flex-start;
+  margin-left: 124px;
+}
+
+@media screen and (max-width: 599px) {
+  .info-block_position_left {
+    margin-left: 24px;
+  }
+}

@@ -1,0 +1,9 @@
+.info-block_position_right {
+  margin-right: 78px;
+}
+
+@media screen and (max-width: 599px) {
+  .info-block_position_right {
+    margin-right: 0px;
+  }
+}

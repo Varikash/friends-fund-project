@@ -33,6 +33,7 @@
 @import url(../blocks/header/__language/_active/header__language_active.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__button-text/header__button-text.css);
+
 @import url(../blocks/popup-menu-1/popup-menu-1.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_active/popup_active.css);
@@ -45,6 +46,7 @@
 @import url(../blocks/popup-menu-1/__social-link/popup-menu-1__social-link.css);
 @import url(../blocks/block/_position/block_position_centered.css);
 @import url(../blocks/popup-menu-2/__backward/popup-menu-2__backward.css);
+
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__container/slider__container.css);
 @import url(../blocks/slider/__control/slider__control.css);
@@ -84,10 +86,13 @@
 @import url(../blocks/slider/__item/_logo/slider__item_logo_school.css);
 @import url(../blocks/slider/__item/_logo/slider__item_logo_bosco.css);
 @import url(../blocks/slider/__item/_logo/slider__item_logo_alfa.css);
+
 @import url(../blocks/friends/friends.css);
 @import url(../blocks/friends/__title/friends__title.css);
+
 @import url(../blocks/trust/trust.css);
 @import url(../blocks/trust/__title/trust__title.css);
+
 @import url(../blocks/question/question.css);
 @import url(../blocks/question/__title/question__title.css);
 @import url(../blocks/question/__subtitle/question__subtitle.css);
@@ -165,3 +170,19 @@
 @import url(../blocks/donation/__field-sum/donation__field-sum.css);
 @import url(../blocks/donation/__symbol/donation__symbol.css);
 @import url(../blocks/donation/__donat-button/donation__donat-button.css);
+
+@import url(../blocks/programms/programms.css);
+@import url(../blocks/programms/__header/programms__header.css);
+
+@import url(../blocks/procharity/procharity.css);
+@import url(../blocks/philanthropy/philanthropy.css);
+@import url(../blocks/prof-team/prof-team.css);
+
+@import url(../blocks/info-block/info-block.css);
+@import url(../blocks/info-block/_position/info-block_position_left.css);
+@import url(../blocks/info-block/_position/info-block_position_right.css);
+@import url(../blocks/info-block/__text-logo/info-block__text-logo.css);
+@import url(../blocks/info-block/__header/info-block__header.css);
+@import url(../blocks/info-block/__description/info-block__description.css);
+@import url(../blocks/info-block/__button/info-block__button.css);
+
