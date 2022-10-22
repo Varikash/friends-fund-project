@@ -1,0 +1,28 @@
+.philanthropy {
+  box-sizing: border-box;
+  padding-left: 600px;
+  background-color: #528CBE;
+  height: 490px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(../../images/philanthropy__image.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+  resize: both;
+}
+
+@media screen and (max-width: 940px) {
+  .philanthropy {
+    background-image: none;
+    padding-left: 124px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .philanthropy {
+    padding-left: 24px;
+    height: 354px;
+  }
+}

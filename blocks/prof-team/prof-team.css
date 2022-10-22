@@ -1,0 +1,24 @@
+.prof-team {
+  box-sizing: border-box;
+  height: 490px;
+  background-color: #F47B8B;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url(../../images/prof-team__image.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1119px) {
+  .prof-team {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .prof-team {
+    height: 320px;
+  }
+}

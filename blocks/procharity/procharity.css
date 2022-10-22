@@ -1,0 +1,24 @@
+.procharity {
+  box-sizing: border-box;
+  background-color: #77C5D5;
+  height: 490px;
+  background-image: url(../../images/procharity__image.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 940px) {
+  .procharity {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .procharity {
+    height: 292px;
+  }
+}

@@ -1,0 +1,14 @@
+.programms__header {
+  margin: 0 auto 56px auto;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 599px) {
+  .programms__header {
+    margin: 0 auto 24px auto;
+    font-size: 32px;
+  }
+  
+}

@@ -1,0 +1,18 @@
+.info-block__header {
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  max-width: 600px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+  color: #fff;
+}
+
+@media screen and (max-width: 599px) {
+  .info-block__header {
+    font-size: 32px;
+    line-height: 29px;
+    margin-bottom: 15px;
+  }
+}
