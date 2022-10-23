@@ -1,10 +1,10 @@
 .slider__item_logo_indigo{
     background-image: url(../../../../images/trust.svg);
-    background-position-x: -818px;
+    background-position-x: -558px;
 }
 
 @media screen and (max-width: 575px) {
     .slider__item_logo_indigo{
-        background-position-x: -499px;
+        background-position-x: -342px;
     }
 }

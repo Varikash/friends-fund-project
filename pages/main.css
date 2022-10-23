@@ -86,6 +86,11 @@
 @import url(../blocks/slider/__item/_logo/slider__item_logo_school.css);
 @import url(../blocks/slider/__item/_logo/slider__item_logo_bosco.css);
 @import url(../blocks/slider/__item/_logo/slider__item_logo_alfa.css);
+@import url(../blocks/slider/__item/_logo/slider__item_logo_bmw.css);
+@import url(../blocks/slider/__item/_logo/slider__item_logo_kpmg.css);
+@import url(../blocks/slider/__item/_logo/slider__item_logo_philin.css);
+@import url(../blocks/slider/__item/_logo/slider__item_logo_mamm.css);
+@import url(../blocks/slider/__item/_logo/slider__item_logo_all.css);
 
 @import url(../blocks/friends/friends.css);
 @import url(../blocks/friends/__title/friends__title.css);

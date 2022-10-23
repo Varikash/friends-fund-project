@@ -1,10 +1,10 @@
 .slider__item_logo_alfa{
     background-image: url(../../../../images/trust.svg);
-    background-position-x: -1444px;
+    background-position-x: -1489px;
 }
 
 @media screen and (max-width: 575px) {
     .slider__item_logo_alfa{
-        background-position-x: -881px;
+        background-position-x: -909px;
     }
 }

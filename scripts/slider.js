@@ -322,7 +322,7 @@ class Slider {
   
       this._manageActiveClasses();
       this._transform = transform;
-      this._itemsEl.style.transform = `translate3D(${transform}px, 0px, 0.1px)`;
+      this._itemsEl.style.transform = `translate3D(${transform*4}px, 0px, 0.1px)`;
       this._itemsEl.dispatchEvent(new CustomEvent(Slider.EVENT_NAME, { bubbles: true }));
     }
   

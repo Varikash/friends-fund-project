@@ -1,0 +1,10 @@
+.slider__item_logo_bmw{
+    background-image: url(../../../../images/trust.svg);
+    background-position-x: -746px;
+}
+
+@media screen and (max-width: 575px) {
+    .slider__item_logo_bmw{
+        background-position-x: -455px;
+    }
+}

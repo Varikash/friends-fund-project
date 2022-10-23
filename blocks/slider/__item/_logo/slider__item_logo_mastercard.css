@@ -1,10 +1,10 @@
 .slider__item_logo_mastercard{
     background-image: url(../../../../images/trust.svg);
-    background-position-x: -609px;
+    background-position-x: -372px;
 }
 
 @media screen and (max-width: 575px) {
     .slider__item_logo_mastercard{
-        background-position-x: -372px;
+        background-position-x: -226px;
     }
 }

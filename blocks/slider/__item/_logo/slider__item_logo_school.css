@@ -1,10 +1,10 @@
 .slider__item_logo_school{
     background-image: url(../../../../images/trust.svg);
-    background-position-x: -1028px;
+    background-position-x: -1119px;
 }
 
 @media screen and (max-width: 575px) {
     .slider__item_logo_school{
-        background-position-x: -630px;
+        background-position-x: -681px;
     }
 }

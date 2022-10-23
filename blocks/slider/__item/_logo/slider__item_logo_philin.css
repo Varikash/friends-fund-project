@@ -1,0 +1,10 @@
+.slider__item_logo_philin{
+    background-image: url(../../../../images/trust.svg);
+    background-position-x: -1865px;
+}
+
+@media screen and (max-width: 575px) {
+    .slider__item_logo_philin{
+        background-position-x: -1136px;
+    }
+}
