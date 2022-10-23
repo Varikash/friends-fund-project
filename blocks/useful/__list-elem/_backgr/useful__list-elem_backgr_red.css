@@ -1,0 +1,23 @@
+.useful__list-elem_backgr_red {
+  background-image: url(../../../../images/useful_red.svg);
+  background-repeat: no-repeat;
+  background-position: right 46px top 58px;
+  background-size: 156px 91px;
+}
+
+.useful__list-elem_backgr_red:hover {
+  background-position: right 35px top 46px;
+  background-size: 181px 105px;
+}
+
+@media screen and (max-width: 515px) {
+  .useful__list-elem_backgr_red {
+    background-position: right 38px top 113px;
+    background-size: 120px 70px;
+  }
+
+  .useful__list-elem_backgr_red:hover {
+    background-position: right 38px top 113px;
+    background-size: 120px 70px;
+  }
+}

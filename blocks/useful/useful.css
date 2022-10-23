@@ -1,0 +1,12 @@
+.useful {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 124px 96px;
+}
+
+@media screen and (max-width: 752px) {
+  .useful {
+    padding: 0px 16px 56px;
+  }
+}

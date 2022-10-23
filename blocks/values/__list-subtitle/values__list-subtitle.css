@@ -1,0 +1,15 @@
+.values__list-subtitle {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #000000;
+}
+
+@media screen and (max-width: 426px) {
+  .values__list-subtitle {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

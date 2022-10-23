@@ -1,0 +1,19 @@
+.useful__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  padding-top: 96px;
+  padding-bottom: 56px;
+  margin: 0px;
+  color: #000000;
+}
+
+@media screen and (max-width: 426px) {
+  .useful__title {
+    font-size: 32px;
+    line-height: 44px;
+    padding-top: 56px;
+    padding-bottom: 24px;
+  }
+}

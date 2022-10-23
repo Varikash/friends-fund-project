@@ -1,0 +1,23 @@
+.useful__list-elem_backgr_yell {
+  background-image: url(../../../../images/useful_yellow.svg);
+  background-repeat: no-repeat;
+  background-position: right 38px top 54px;
+  background-size: 120px 120px;
+}
+
+.useful__list-elem_backgr_yell:hover {
+  background-position: right 32px top 42px;
+  background-size: 134px 134px;
+}
+
+@media screen and (max-width: 515px) {
+  .useful__list-elem_backgr_yell {
+    background-position: right 44px top 107px;
+    background-size: 86px 86px;
+  }
+
+  .useful__list-elem_backgr_yell:hover {
+    background-position: right 44px top 107px;
+    background-size: 86px 86px;
+  }
+}

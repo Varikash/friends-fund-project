@@ -196,3 +196,22 @@
 @import url(../blocks/info-block/__header/info-block__header.css);
 @import url(../blocks/info-block/__description/info-block__description.css);
 @import url(../blocks/info-block/__button/info-block__button.css);
+
+
+@import url(../blocks/values/values.css);
+@import url(../blocks/values/__title/values__title.css);
+@import url(../blocks/values/__list/values__list.css);
+@import url(../blocks/values/__list-item/values__list-item.css);
+@import url(../blocks/values/__list-subtitle/values__list-subtitle.css);
+@import url(../blocks/values/__image/values__image.css);
+
+@import url(../blocks/useful/useful.css);
+@import url(../blocks/useful/__list/useful__list.css);
+@import url(../blocks/useful/__list-elem/useful__list-elem.css);
+@import url(../blocks/useful/__list-elem/_backgr/useful__list-elem_backgr_blue.css);
+@import url(../blocks/useful/__list-elem/_backgr/useful__list-elem_backgr_red.css);
+@import url(../blocks/useful/__list-elem/_backgr/useful__list-elem_backgr_yell.css);
+@import url(../blocks/useful/__list-elem/_backgr/useful__list-elem_backgr_blueb.css);
+@import url(../blocks/useful/__title/useful__title.css);
+@import url(../blocks/useful/__list-title/useful__list-title.css);
+@import url(../blocks/useful/__list-subtitle/useful__list-subtitle.css);

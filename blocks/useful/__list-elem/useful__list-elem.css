@@ -1,0 +1,20 @@
+.useful__list-elem {
+  width: 504px;
+  height: 208px;
+  box-sizing: border-box;
+  padding: 44px 0px 0px 44px;
+  background-color: #F8F8F8;
+  transition: all 0.6s;
+}
+
+.useful__list-elem:hover {
+  background-color: #FFFFFF;
+  box-shadow: 0px 20px 52px rgba(95, 97, 113, 0.12);
+}
+
+@media screen and (max-width: 539px) {
+  .useful__list-elem {
+    width: 100%;
+    padding: 32px 0px 0px 24px;
+  }
+}

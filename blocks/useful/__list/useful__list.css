@@ -1,0 +1,15 @@
+.useful__list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+@media screen and (max-width: 1280px) {
+  .useful__list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

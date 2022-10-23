@@ -1,0 +1,16 @@
+.values__list-item {
+  width: 200px;
+  height: 156px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+@media screen and (max-width: 426px) {
+  .values__list-item {
+    width: 100%;
+    height: 121px;
+    gap: 8px;
+  }
+}

@@ -1,0 +1,11 @@
+.values__image {
+  width: 96px;
+  height: 96px;
+}
+
+@media screen and (max-width: 426px) {
+  .values__image {
+    width: 88px;
+    height: 88px;
+  }
+}

@@ -1,0 +1,15 @@
+.values__list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+@media screen and (max-width: 426px) {
+  .values__list {
+    gap: 40px;
+  }
+}
