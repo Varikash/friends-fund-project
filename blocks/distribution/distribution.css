@@ -5,6 +5,13 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 1279px){
+  .distribution {
+    flex-direction: column;
+    max-width: 800px;
+  }
+}
+
 @media screen and (max-width: 768px){
   .distribution {
     flex-direction: column;

@@ -1,8 +1,9 @@
 .donation__title {
+  margin: 0;
   font-weight: 700;
   font-size: 34px;
   line-height: 26px;
-  margin: 56px 0 44px;
+  margin: 56px 0 4px;
   text-align: center;
 }
 
