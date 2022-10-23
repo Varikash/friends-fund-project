@@ -1,16 +1,15 @@
-.question__title{
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 50px;
-    text-align: center;
-    margin: 0;
-    padding-bottom: 32px;
+.question__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 575px) {
-    .question__title {
-        font-size: 32px;
-        line-height: 44px;
-        padding-bottom: 16px;
-    }
+  .question__title {
+    font-size: 32px;
+    line-height: 44px;
+  }
 }

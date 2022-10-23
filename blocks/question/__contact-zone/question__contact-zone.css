@@ -1,5 +1,6 @@
-.distribution__info {
+.question__contact-zone {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: 100%;
 }

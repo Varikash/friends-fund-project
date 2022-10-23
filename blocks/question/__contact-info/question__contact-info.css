@@ -1,0 +1,16 @@
+.question__contact-info {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #71BBCA;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 60px;
+}
+
+@media screen and (max-width: 575px) {
+	.question__contact-info {
+		font-size: 32px;
+		line-height: 40px;
+	}
+}

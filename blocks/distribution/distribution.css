@@ -1,26 +1,31 @@
 .distribution {
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
+  padding: 43px 125px;
+  box-sizing: border-box;
   display: flex;
   background-color: #F8F8F8;
   justify-content: center;
+  gap: 103px;
+  transition: padding 0.4s;
 }
 
-@media screen and (max-width: 1279px){
+@media screen and (max-width: 1230px) {
   .distribution {
     flex-direction: column;
-    max-width: 800px;
+    align-items: center;
+    gap: 37px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 630px) {
   .distribution {
-    flex-direction: column;
-    max-width: 675px;
+    padding: 43px 50px;
   }
 }
 
-@media screen and (max-width: 426px){
+@media screen and (max-width: 500px) {
   .distribution {
-    max-width: 375px;
+    padding: 40px 24px 52px;
   }
 }
