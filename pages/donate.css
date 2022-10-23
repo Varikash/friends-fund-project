@@ -1,2 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+
+
+@import url('../blocks/question/question.css'); /*в разработке*/
+@import url('../blocks/helpful/helpful.css'); /*в разработке*/
+@import url('../blocks/contact/contact.css'); /*в разработке*/

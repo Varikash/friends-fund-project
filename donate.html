@@ -12,11 +12,77 @@
     <header class="header"></header>
     <main>
       <section class="max-donation"></section>
-      <section class="question"></section>
+      <section class="question question_donate"> 
+        <h2 class="question__title">Остались вопросы? Пишите и звоните нам</h2>
+        <div class="question__contact-zone">
+          <a class="question__contact-info" href="mailto:friends@friends-foundation.com">friends@friends-foundation.com</a>
+          <p class="question__contact-info">+7 977 277-07-17</p>
+        </div>
+      </section>
       <section class="achievements"></section>
-      <section class="helpful"></section>
-      <section class="tell-about"></section>
-      <section class="contact"></section>
+      <section class="helpful">
+        <h2 class="helpful__title">Как еще 
+          <span class="helpful__title_cursive">вы можете помочь</span>
+        </h2>
+        <ul class="helpful__content">
+      
+          <li class="helpful__item">
+            <div class="helpful__text-block">
+              <h3 class="helpful__item-title">Стать интеллектуальным волонтером</h3>
+              <p class="helpful__item-text">Помогая фондам своими профессиональными 
+                навыками, Вы сохраняете средства в бюджете организаций и 
+                позволяете им помочь еще большему количеству людей.</p>
+              <a class="helpful__item-url helpful__link about__fig-item_color_gray" href="https://procharity.ru/" target="_blank">
+                <p class="helpful__url-text">Перейти на сайт ProCharity</p>
+                <div class="helpful__item-arrow"></div>
+              </a>  
+            </div>
+            <a class="helpful__url-img helpful__link" href="https://ru-ru.facebook.com/FriendsFund/" target="_blank">
+              <img class="url__image" src="./images/fb-screen.jpg" alt="сообщество Фонда Друзья в FaceBook">
+            </a>
+          </li>
+      
+          <li class="helpful__item helpful__flex_reverse">
+            <div class="helpful__text-block helpful__text-block_reverse">
+              <h3 class="helpful__item-title">Стать попечителем</h3>
+              <p class="helpful__item-text">Инвестируя в одну из программ фонда 
+                “Друзья”, вы можете стать попечителем Московской школы 
+                профессиональной филантропии, платформы ProCharity или 
+                фонда «Друзья», а также наших благополучателей  – НКО, 
+                социальной организации/проекта или конкретного профессионала.</p>
+              <a class="helpful__item-e-mail helpful__link" href="mailto:e.gosteva@friends-foundation.com">e.gosteva@friends-foundation.com</a>
+            </div>
+            <a class="helpful__url-img helpful__link" href="https://www.instagram.com/friendsfund/" target="_blank">
+              <img class="url__image" src="./images/ig-screen.png" alt="сообщество Фонда Друзья в Instagram">
+            </a>
+          </li>
+      
+          <li class="helpful__item helpful__social-content">
+            <div class="helpful__text-block">
+              <h3 class="helpful__item-title">Рассказать о нас друзьям</h3>
+                <div class="helpful__social-zone">
+                  <a class="helpful__item-social helpful__item-social_logo_vk helpful__link" href="#" target="_blank"></a>
+                  <a class="helpful__item-social helpful__item-social_logo_tg helpful__link" href="#" target="_blank"></a>
+                </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="contact">
+        <h2 class="contact__title">Связаться с нами</h2>
+        <p class="contact__text">Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня</p>
+        <form class="contact__form" action="">
+          <input class="contact__user-name" type="text" placeholder="Имя" name="Имя пользователя" required>
+          <input class="contact__user-email" type="email" placeholder="E-mail" name="E-mail пользователя" required>
+          <textarea class="contact__user-message" name="Сообщение пользователя" placeholder="Сообщение" required></textarea> <!--id="#" cols="30" rows="10" -->
+          <label class="contact__checkbox-zone" for="checkbox">
+            <input class="contact__check-user-agreement" type="checkbox" name="Пользовательское сошлашение" id="checkbox" required>
+            <span class="contact__check-on"></span>
+            Я согласен с <a class="contact__user-agreement" href="#">пользовательским соглашением</a>
+          </label>
+          <button class="contact__form-btn" type="submit">Отправить</button>
+        </form>
+      </section>
       <section class="distribution"></section>
     </main>
     <footer class="footer"></footer>

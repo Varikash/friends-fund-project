@@ -1,0 +1,71 @@
+/*БЭМ в процессе*/
+
+.question {
+  margin: 0;
+  padding: 96px 0 107px 213px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  max-width: 920px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.question_donate {
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .question {
+    padding: 0;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .question {
+    gap: 17px;
+  }
+}
+
+.question__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 375px) {
+  .question__title {
+    line-height: 44px;
+  }
+}
+
+.question__contact-zone {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.question__contact-info {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #71BBCA;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 0.4px;
+  
+}
+
+@media screen and (max-width: 375px) {
+  .question__contact-info {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
