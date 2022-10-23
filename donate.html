@@ -40,7 +40,7 @@
 
         <form class="max-donation__form" action="#">
           <p class="max-donation__title">Выберите тип и сумму пожертвования</p>
-          <fieldset class="donation__fieldset">
+          <fieldset class="max-donation__fieldset">
             <label class="donation__label" for="single-donation">
               <input type="radio" name="donation-time" id="single-donation" class="donation__item donation__item_el_donation-time">
               <span class="donation__visible-radio donation__visible-radio_time donation__visible-radio_margin_left">РАЗОВОЕ</span>
@@ -50,7 +50,8 @@
               <span class="donation__visible-radio donation__visible-radio_time donation__visible-radio_margin_right">ЕЖЕМЕСЯЧНОЕ</span>
             </label>
           </fieldset>
-          <fieldset class="donation__fieldset">
+          <p class="max-donation__title">Сумма поддержки</p>
+          <fieldset class="max-donation__fieldset">
             <label class="donation__label" for="sum5000">
               <input type="radio" name="donation-sum" id="sum5000" class="donation__item donation__item_el_donation-sum">
               <span class="donation__visible-radio donation__visible-radio_sum">5 000</span>
@@ -64,12 +65,27 @@
               <span class="donation__visible-radio donation__visible-radio_sum donation__visible-radio_sum_big ">50 000</span>
             </label>  
           </fieldset>
-          <fieldset class="donation__fieldset">
+          <fieldset class="max-donation__fieldset">
             <input type="text" class="donation__field-sum" id="field-sum" name="field-sum" placeholder="Другая сумма" value="">
-            <p class="donation__symbol">₽</p>
+            <p class="donation__symbol">&#8381;</p>
           </fieldset>
+          <p class="max-donation__title">Способ оплаты</p>
+          <fieldset class="max-donation__fieldset">
+            <label class="donation__label" for="bank-card">
+              <input type="radio" name="donation-way" id="bank-card" class="donation__item donation__item_el_donation-sum">
+              <span class="donation__visible-radio donation__visible-radio_sum"><img src="/images/viza+mir.svg" alt=""></span>
+            </label>       
+            <label class="donation__label" for="google-pay">
+              <input type="radio" name="donation-way" id="google-pay" class="donation__item donation__item_el_donation-sum">
+              <span class="donation__visible-radio donation__visible-radio_sum donation__visible-radio_margin"><img class="max-donation__sumbol" src="/images/googlepay1.svg" alt=""></span>
+            </label> 
+            <label class="donation__label" for="apple-pay">
+              <input type="radio" name="donation-way" id="apple-pay" class="donation__item donation__item_el_donation-sum">
+              <span class="donation__visible-radio donation__visible-radio_sum donation__visible-radio_sum_big "><img class="max-donation__sumbol_apay" src="/images/Pay.svg" alt=""></span>
+            </label>  
+          </fieldset>  
           <button class="donation__donat-button" type="button" value="Поддержать фонд" id="donation-button">Поддержать фонд</button>
-        </form>
+          </form>
 
       </section>
       <section class="question"></section>

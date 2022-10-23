@@ -6,7 +6,7 @@
   line-height: 20px;
   padding: 18px 0 18px 18px;
   width: 540px;
-  margin: 0 56px;
+  /* margin: 0 56px; */
 }
 
 @media screen and (max-width: 601px) {
@@ -14,5 +14,19 @@
     max-width: 295px;
     margin: 0 24px;
     margin-right: 35px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .donation__field-sum {
+    margin-right: 35px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .donation__field-sum {
+    /* max-width: 290px; */
+    margin-right: 24px;
+    margin-left: 14px;
   }
 }

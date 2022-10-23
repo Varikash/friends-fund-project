@@ -1,0 +1,8 @@
+.max-donation__fieldset {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top: 16px;
+  }

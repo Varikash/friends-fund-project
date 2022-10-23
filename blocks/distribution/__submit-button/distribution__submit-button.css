@@ -16,3 +16,8 @@
     margin: 0 24px 52px;
   }
 }
+
+.distribution__submit-button:hover {
+  transition: .5s;
+  background-color: #487FAE;
+}
