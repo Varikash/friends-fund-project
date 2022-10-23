@@ -1,0 +1,24 @@
+.donation__text {
+  margin: 94px 0 0 51px;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 66px;
+  color: white;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .donation__text {
+    font-size: 45px;
+    line-height: 42px;
+    margin-top: 44px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .donation__text {
+    font-size: 27px;
+    line-height: 38px;
+    margin-left: 24px;
+  }
+}

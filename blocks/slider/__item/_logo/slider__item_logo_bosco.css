@@ -1,0 +1,10 @@
+.slider__item_logo_bosco{
+    background-image: url(../../../../images/trust.svg);
+    background-position-x: -1307px;
+}
+
+@media screen and (max-width: 575px) {
+    .slider__item_logo_bosco{
+        background-position-x: -796px;
+    }
+}

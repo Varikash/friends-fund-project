@@ -15,3 +15,36 @@
   src: url("../vendor/fonts/Inter-Bold.woff2") format("woff2"),
        url("../vendor/fonts/Inter-Bold.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'Berlin';
+  src: url('../vendor/fonts/Berlin-Regular.woff2') format('woff2'),
+       url('../vendor/fonts/Berlin-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Berlin';
+  src: url('../vendor/fonts/Berlin-Bold.woff2') format('woff2'),
+       url('../vendor/fonts/Berlin-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Berlin';
+  src: url('../vendor/fonts/Berlin-ExtraBold.woff2') format('woff2'),
+       url('../vendor/fonts/Berlin-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Berlin';
+  src: url('../vendor/fonts/Berlin-Light.woff2') format('woff2'),
+       url('../vendor/fonts/Berlin-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+

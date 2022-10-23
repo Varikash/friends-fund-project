@@ -1,0 +1,10 @@
+.slider__item_logo_rosskongres{
+    background-image: url(../../../../images/trust.svg);
+    background-position-x: -185px;
+}
+
+@media screen and (max-width: 575px) {
+    .slider__item_logo_rosskongres {
+        background-position-x: -113px;
+    }
+}

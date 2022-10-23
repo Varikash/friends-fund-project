@@ -1,0 +1,18 @@
+.blog__cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 56px;
+}
+
+@media screen and (max-width: 1279px) {
+  .blog__cards{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .blog__cards {
+    display: none;
+  }
+}

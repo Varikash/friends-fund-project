@@ -1,0 +1,10 @@
+.slider__item_logo_mamm{
+    background-image: url(../../../../images/trust.svg);
+    background-position-x: -2050px;
+}
+
+@media screen and (max-width: 575px) {
+    .slider__item_logo_mamm{
+        background-position-x: -1251px;
+    }
+}

@@ -1,0 +1,17 @@
+.info-block__description {
+  margin: 0;
+  margin-bottom: 54px;
+  padding: 0;
+  max-width: 465px;
+  line-height: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+}
+
+@media screen and (max-width: 599px) {
+  .info-block__description {
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+}

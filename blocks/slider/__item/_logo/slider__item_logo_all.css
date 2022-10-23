@@ -1,0 +1,11 @@
+.slider__item_logo_all{
+    background-image: url(../../../../images/trust.svg);
+    background-position-x: -2235px;
+    flex: 0 0 150px;
+}
+
+@media screen and (max-width: 575px) {
+    .slider__item_logo_all{
+        background-position-x: -1363px;
+    }
+}

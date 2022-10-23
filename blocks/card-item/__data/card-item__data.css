@@ -1,0 +1,8 @@
+.card-item__data {
+  margin: 0;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 120%;
+}

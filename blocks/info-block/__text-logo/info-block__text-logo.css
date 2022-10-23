@@ -1,0 +1,22 @@
+.info-block__text-logo {
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.24rem;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: .6;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+@media screen and (max-width: 599px) {
+  .info-block__text-logo {
+    font-size: 8px;
+    line-height: 9px;
+  }
+}

@@ -1,0 +1,15 @@
+.slider__item_logo{
+    flex: 0 0 123px;
+    max-height: 123px;
+    min-height: 123px;
+    padding-right: 67px;
+}
+
+@media screen and (max-width: 575px) {
+    .slider__item_logo {
+        flex: 0 0 75px;
+        max-height: 75px;
+        min-height: 75px;
+        padding-right: 40px;
+    }
+}

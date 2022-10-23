@@ -1,0 +1,17 @@
+.slider__item{
+    flex: 0 0 100%;
+    max-height: 626px;
+    min-height: 626px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    user-select: none;
+    will-change: transform;
+}
+
+@media screen and (max-width: 425px) {
+    .slider__item{
+        min-height: 486px;
+    }
+}

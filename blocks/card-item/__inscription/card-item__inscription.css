@@ -1,0 +1,13 @@
+ .card-item__inscription {
+  position: absolute;
+  top: 12px;
+  left: 24px;
+  padding: 2px 8px;
+  background-color: #FFA923; 
+   width: 41px;
+  height: 20px; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 20px;
+}

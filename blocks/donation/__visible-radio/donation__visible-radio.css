@@ -1,0 +1,10 @@
+.donation__visible-radio {
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  background-color: #F8F8F8;
+  text-align:center;
+  padding-top: 10px;
+  font-weight: 700;
+  line-height: 20px;
+}

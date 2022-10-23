@@ -6,7 +6,7 @@
   justify-content: space-between;
   padding-left: 18px;
   column-gap: 40px;
-  overflow: hidden;
+  position: relative;
 }
 
 @media screen and (max-width: 1244px) {
@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 969px) {
+@media screen and (max-width: 1049px) {
   .header {
     justify-content: flex-start;
   }

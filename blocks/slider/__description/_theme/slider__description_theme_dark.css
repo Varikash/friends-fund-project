@@ -1,0 +1,20 @@
+.slider__description_theme_dark{
+    color: #000;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 368px;
+}
+
+@media screen and (max-width: 1180px) {
+    .slider__description_theme_dark{
+        max-width: 230px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider__description_theme_dark{
+        max-width: 190px;
+        font-size: 16px;
+    }
+}

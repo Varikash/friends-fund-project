@@ -1,0 +1,17 @@
+input[id='single-donation']:checked + .donation__visible-radio {
+  background-color: #82607D; 
+  z-index: 3;
+  color: #F8F8F8;
+  transition: background-color 2s;
+}
+
+
+input[id='monthly-donation']:checked + .donation__visible-radio {
+  background-color: #82607D; 
+  z-index: 3;
+  color: #F8F8F8;
+  transition: background-color 2s;
+}
+
+
+

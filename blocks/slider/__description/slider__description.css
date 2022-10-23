@@ -1,0 +1,17 @@
+.slider__description{
+    color: #fff;
+    font-family: 'Berlin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    max-width: 626px;
+}
+
+@media screen and (max-width: 425px) {
+    .slider__description{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}

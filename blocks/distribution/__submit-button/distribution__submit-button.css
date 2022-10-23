@@ -1,0 +1,18 @@
+.distribution__submit-button {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #528CBE;
+  color: white;
+  border: 0;
+  border-radius: 56px;
+  padding: 18px 29px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 912px) {
+  .distribution__submit-button {
+    padding: 18px 116px;
+    margin: 0 24px 52px;
+  }
+}

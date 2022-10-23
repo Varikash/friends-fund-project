@@ -1,0 +1,19 @@
+.distribution {
+  margin: 0 auto;
+  display: flex;
+  background-color: #F8F8F8;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+  .distribution {
+    flex-direction: column;
+    max-width: 675px;
+  }
+}
+
+@media screen and (max-width: 426px){
+  .distribution {
+    max-width: 375px;
+  }
+}

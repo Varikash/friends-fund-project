@@ -1,0 +1,15 @@
+.footer__rights {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  column-gap: 82px;
+}
+
+@media screen and (max-width: 1119px) {
+  .footer__rights {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

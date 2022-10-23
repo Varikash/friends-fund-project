@@ -1,0 +1,15 @@
+.distribution__form {
+  display: flex;
+  padding: 80px 128px 80px 28px;
+  border: 0;
+  align-items: center;
+}
+
+@media screen and (max-width: 912px){
+  .distribution__form {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+

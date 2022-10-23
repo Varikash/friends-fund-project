@@ -1,0 +1,9 @@
+.navigation-links_col-gap_max {
+  column-gap: 32px;
+}
+
+@media screen and (max-width: 1150px) {
+  .navigation-links_col-gap_max {
+    column-gap: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+.navigation-link {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1199px) {
+  .navigation-link {
+    font-size: 14px;
+  }
+}

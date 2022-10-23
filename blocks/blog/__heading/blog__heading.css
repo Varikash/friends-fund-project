@@ -1,0 +1,11 @@
+.blog__heading {
+  display: inline-block;
+  margin: 0;
+  height: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  margin: 0 0 16px 24px;
+  /* max-width: 400px;   */
+}

@@ -1,0 +1,13 @@
+.slider__indicator {
+    flex: 0 1 auto;
+    box-sizing: content-box;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect opacity='0.4' width='10' height='10' rx='5' fill='%23AAAAAA'/%3E%3C/svg%3E%0A");
+    background-clip: padding-box;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }

@@ -1,0 +1,23 @@
+.blog__main-card {
+  width: 680px;
+  min-height: 432px;
+  background-image: url(../../../images/main-card__bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog__main-card {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog__main-card {
+    display: none;
+  }
+}

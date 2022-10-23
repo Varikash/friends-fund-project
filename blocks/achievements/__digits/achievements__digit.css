@@ -1,0 +1,11 @@
+.achievements__digit {
+  font-size: 85px;
+  line-height: 96px;
+}
+
+@media screen and (max-widtH: 999px) {
+  .achievements__digit {
+    font-size: 56px;
+    font-size: 77.84px;
+  }
+}

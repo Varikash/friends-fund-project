@@ -1,0 +1,17 @@
+.blog__link {
+  margin: 0 auto;
+  display: block;
+  background-color: #F8F8F8;
+  padding: 18px 110px;
+  text-decoration: none;
+  color: black;
+  border-radius: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  transition: .5s;
+}
+
+.blog__link:hover {
+  background-color: #F1F5F9;
+}

@@ -1,0 +1,23 @@
+.donation {
+  position: relative;
+  margin: 0 73px;
+  margin-bottom: -60px;
+  background-color: #82607D;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation {
+    flex-direction: column;
+    margin: 0 25px;
+  }
+}
+
+@media screen and (max-width:426px) {
+  .donation {
+    margin: 0;
+  }
+}
