@@ -1,7 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
-@import url('../blocks/question/question.css'); /*в разработке*/
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/__title/question__title.css);
+@import url(../blocks/question/__contact-info/question__contact-info.css);
+@import url(../blocks/question/__contact-zone/question__contact-zone.css);
+
 @import url('../blocks/helpful/helpful.css'); /*в разработке*/
 @import url('../blocks/contact/contact.css'); /*в разработке*/
 
