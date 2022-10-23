@@ -1,10 +1,10 @@
 .donation__text {
   margin: 94px 0 0 51px;
   font-weight: 700;
-  font-size: 62px;
-  line-height: 66px;
+  font-size: 60px;
+  line-height: 64px;
   color: white;
-  padding-right: 30px;
+  /* padding-right: 30px; */
 }
 
 @media screen and (max-width: 768px) {

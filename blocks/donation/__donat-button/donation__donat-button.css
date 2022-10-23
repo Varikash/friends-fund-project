@@ -10,9 +10,14 @@
   margin: 45px 0 55px;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 768px) {
   .donation__donat-button {
     padding: 18px 90px;
     margin: 32px 0 40px;
   }
+}
+
+.donation__donat-button:hover {
+  transition: .5s;
+  background-color: #E8AD4D;
 }

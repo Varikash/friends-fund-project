@@ -47,6 +47,8 @@
 @import url(../blocks/donation/__field-sum/donation__field-sum.css);
 @import url(../blocks/donation/__symbol/donation__symbol.css);
 @import url(../blocks/donation/__donat-button/donation__donat-button.css);
+@import url(../blocks/max-donation/__fieldset/max-donation__feildset.css);
+@import url(../blocks/max-donation/__sumbol/max-donation__sumbol.css);
 
 @import url(../blocks/achievements/achievements.css);
 @import url(../blocks/achievements/__list/achievements__list.css);

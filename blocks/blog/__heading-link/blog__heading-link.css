@@ -2,3 +2,8 @@
   text-decoration: none;
   color: white;
 }
+
+.blog__heading-link:hover {
+  transition: .5s;
+  color: #85CBD9;
+}

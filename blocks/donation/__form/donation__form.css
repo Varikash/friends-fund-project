@@ -2,16 +2,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 604px;
   margin-right: 32px;
   margin-top: 40px;
   margin-bottom: 60px;
   background-color: white;
-  /* padding-left: 100px; */
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (max-width:1279px) {
   .donation__form {
     margin-left: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .donation__form {
+    padding: 0;
   }
 }
 

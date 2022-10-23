@@ -8,3 +8,9 @@
     margin-left: 24px;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .donation__visible-radio_margin_left {
+    margin-left: 14px;
+  }
+}
