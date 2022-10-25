@@ -4,3 +4,17 @@
   font-size: 42px;
   line-height: 56px;
 }
+
+  @media screen and (max-width: 900px) {
+    .max-donation__text_italic {
+      font-size: 45px;
+      line-height: 42px;
+    }
+  }
+
+@media screen and (max-width: 770px) {
+  .max-donation__text_italic {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
