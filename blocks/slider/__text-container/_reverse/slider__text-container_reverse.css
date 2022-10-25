@@ -1,0 +1,11 @@
+.slider__text-container_reverse{
+    padding-left: 510px
+}
+
+@media screen and (max-width: 768px) {
+    .slider__text-container_reverse{
+        margin: auto;
+        padding-top: 40px;
+        padding-left: 32px;
+    }
+}
