@@ -72,8 +72,7 @@ class Slider {
   
       this._isSwiping = false;
       this._swipeX = 0;
-  
-      // set config
+      
       this._config = {
         loop: true,
         autoplay: false,
@@ -82,6 +81,11 @@ class Slider {
         swipe: true,
         ...config,
       };
+      
+      if (selector.id === 'heroes'){
+        this._config.autoplay = true
+      }
+      
   
       this._setInitialValues();
       this._addEventListeners();
@@ -412,4 +416,3 @@ class Slider {
   document.addEventListener('DOMContentLoaded', () => {
     Slider.createInstances();
   });
-  

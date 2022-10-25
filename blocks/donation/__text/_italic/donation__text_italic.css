@@ -6,16 +6,16 @@
   font-style: italic;
 }
 
-/* @media screen and (max-width: 768px) {
-  .donation__text {
-    font-size: 44px;
-    line-height: 41px;
+@media screen and (max-width: 768px) {
+  .donation__text_italic {
+    font-size: 7.2vw;
+    line-height: 1.3;
   }
-} */
-
+}
+/* 
 @media screen and (max-width: 768px) {
   .donation__text {
     font-size: 27px;
     line-height: 36px;
   }
-}
+} */

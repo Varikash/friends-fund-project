@@ -9,6 +9,8 @@
     padding-bottom: 16px;
     text-overflow: ellipsis;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
 }
 
 @media screen and (max-width: 425px) {

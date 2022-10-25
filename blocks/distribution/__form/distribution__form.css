@@ -1,8 +1,9 @@
 .distribution__form {
+  width: 496px;
   display: flex;
-  padding: 80px 128px 80px 28px;
   border: 0;
   align-items: center;
+  gap: 16px;
 }
 
 @media screen and (max-width: 912px){
@@ -10,6 +11,13 @@
     padding: 0;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .distribution__form {
+    width: 100%;
   }
 }
 
