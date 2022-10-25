@@ -1,3 +1,14 @@
 .slider__item_picture_help{
     background-image: url(../../../../images/slider_help.png);
 }
+
+.slider__item_picture_help::after {
+    content: '';
+    background: #000;
+    opacity: 0.4;
+    width: 100%;
+    min-height: inherit;
+    position: absolute;
+    top: 0;
+    left:0;
+}
