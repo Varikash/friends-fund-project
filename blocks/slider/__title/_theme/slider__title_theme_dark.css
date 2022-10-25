@@ -1,7 +1,7 @@
 .slider__title_theme_dark{
     color: #000;
-    font-size: 62px;
-    line-height: 66px;
+    font-size: 44px;
+    line-height: 58px;
     max-width: 770px;
     padding-top: 60px;
 }
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
     .slider__title_theme_dark{
-        max-width: 284px;
+        max-width: 311px;
         font-size: 27px;
         line-height: 38px;
     }
