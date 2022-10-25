@@ -22,5 +22,6 @@
 @media screen and (max-width:426px) {
   .donation {
     margin: 0;
+    align-items: flex-start;
   }
 }
