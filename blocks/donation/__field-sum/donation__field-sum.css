@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 601px) {
   .donation__field-sum {
-    max-width: 295px;
+    max-width: 285px;
     margin: 0 24px;
     margin-right: 35px;
   }
