@@ -13,13 +13,9 @@
   margin-top: 16px;
 }
 @media screen and (max-width: 768px) {
-  .donation__fieldset {
-    display: flex;
-  }
-}
-@media screen and (max-width: 767px) {
   .donation__fieldset:nth-of-type(2) {
     flex-wrap: wrap;
     justify-content: center;
   }
 }
+

@@ -9,3 +9,8 @@
   line-height: 20px;
   cursor: pointer;
 }
+
+.donation__visible-radio:hover {
+  background-color: #82607D;
+  color: white;
+}
