@@ -4,7 +4,19 @@
   align-items: center;
   width: 100%;
   background: linear-gradient(#82607D 50%, white 0%);
-  height: 1000px;
+  max-height: 1000px;
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .max-donation {
+    background: linear-gradient(#82607D 63%, white 0%);
+    max-height: 1500px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .max-donation {
+    background: linear-gradient(#82607D 34%, white 0%);
+  }
+}
