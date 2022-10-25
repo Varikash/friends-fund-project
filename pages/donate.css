@@ -67,6 +67,10 @@
 @import url(../blocks/max-donation/__fieldset/max-donation__feildset.css);
 @import url(../blocks/max-donation/__sumbol/max-donation__sumbol.css);
 
+@import url(../blocks/max-donation/__fieldset-card-frontside/max-donation__fieldset-card-frontside.css);
+@import url(../blocks/max-donation/__fieldset-card/max-donation__fieldset-card.css);
+
+
 @import url(../blocks/achievements/achievements.css);
 @import url(../blocks/achievements/__list/achievements__list.css);
 @import url(../blocks/achievements/__text/achievements__text.css);
