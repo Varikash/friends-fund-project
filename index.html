@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
 
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Фонд "Друзья"</title>
-  <link rel="stylesheet" href="./pages/main.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="root">
   <div class="page">
     <header class="header header_position_sticky">
       <button class="menu-icon"></button>
+
       <img src="./images/Logo.svg" alt="логотип фонда друзья" class="header__logo">
+
       <nav class="navigation navigation_disabled">
         <ul class="navigation-links navigation-links_direction_row navigation-links_col-gap_max">
           <li><a href="#"
@@ -48,18 +51,21 @@
         <li><a href="#" class="header__language header__language_active link_hover_on">Ру</a></li>
         <li><a href="#" class="header__language link_hover_on">En</a></li>
       </ul>
+
       <button class="header__button"><a class="header__button-text link_hover_on" href="./donate.html">Помочь фонду</a></button>
     </header>
     <main>
       <section class="heroes">
-        <div class="slider" data-slider id="heroes">
+        <div class="slider" data-slider id="heroes"
           <div class="slider__container">
             <div class="slider__items">
               <div class="slider__item slider__item_picture_help">
                 <div class="slider__text-container">
+
                   <h1 class="slider__title slider__title_size_m">Мы <span class="slider__title_italic  ">помогаем</span>
                     другим,
                     чтобы они <span class="slider__title_italic">помогали</span> другим</h1>
+
                   <p class="slider__description slider__description_size_m">Фонд «Друзья» — это фонд для тех, кто хочет
                     приносить пользу другим людям ничего за это не беря.</p>
                   <input class="slider__button" type="button" value="Наши программы">
@@ -240,6 +246,7 @@
         </ul>
       </section>
       <section class="achievements" aria-label="achievements">
+
         <ul class="achievements__list">
           <li class="achievements__point">
             <p class="achievements__text"><span class="achievements__digit achievements__text_weight_bold">
@@ -413,7 +420,7 @@
           <li class="blog__main-card">
             <p class="blog__inscription">СТАТИСТИКА</p>
             <p class="blog__data">7 ИЮЛЯ 2021</p>
-            <h3 class="blog__heading"><a class="blog__heading-link" target="_blank" href="#">Россияне <br> и
+            <h3 class="blog__heading"><a class="blog__heading-link" target="_blank" href="#">Россияне и
                 благотворительность</a></h3>
             <h4 class="blog__description">Что статистика знает о добрых делах</h4>
           </li>
@@ -531,8 +538,9 @@
       </section>
       <section class="distribution">
         <div class="distribution__info">
-          <h3 class="distribution__title">Подпишитесь на новостную <br>рассылку программы</h3>
-          <p class="distribution__subtitle">и получайте первыми наши новости и приглашения <br> на семинары/вебинары</p>
+          <h3 class="distribution__title">Подпишитесь на новостную рассылку/вебинары</h3>
+          <p class="distribution__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
+
         </div>
         <form class="distribution__form" name="distribution-form" id="distribution-form" action="#">
           <fieldset class="distribution__fieldset">
@@ -566,19 +574,24 @@
           <button class="slider__control" data-slide="next">
             <span class="slider__arrow">Go Right</span>
           </button>
+
         </div>
       </section>
       <section class="question">
         <h2 class="question__title">Остались вопросы? Пишите и звоните нам</h2>
         <div class="question__contact-zone">
           <a class="question__contact-info"
+
             href="mailto:friends@friends-foundation.com">friends&commat;friends-foundation.com</a>
+
           <p class="question__contact-info">+7 977 277-07-17</p>
         </div>
       </section>
       <section class="donation">
-        <h2 class="donation__text">Поддержите «Друзей» или станьте <br> <span
-            class=" donation__text donation__text_italic">нашим партнером</span></h2>
+
+        <p class="donation__text">Поддержите «Друзей» или станьте 
+          <span class=" donation__text donation__text_italic">нашим партнером</span> </p>
+
         <form class="donation__form" action="#">
           <p class="donation__title">Поддержать друзей:</p>
           <fieldset class="donation__fieldset">
@@ -650,6 +663,7 @@
             <li><a href="#"
                 class="navigation-link navigation-link_color_white navigation-link_fz_footer link_hover_on">Контакты</a>
             </li>
+
             <li><a href="./donate.html"
                 class="navigation-link navigation-link_color_gold navigation-link_fz_footer navigation-link__help link_hover_on">Помочь
                 фонду</a></li>
@@ -686,6 +700,7 @@
             авторам.
             Любое размещение материалов на&nbsp;сторонних ресурсах необходимо согласовывать с&nbsp;правообладателями.
           </p>
+
 
           <img src="./images/dun&bradstreet.svg" alt="dun&bradstreet">
         </div>
@@ -759,7 +774,7 @@
       </li>
     </ul>
   </div>
-  <script src="./scripts/main.js"></script>
+  <script src="./scripts/index.js"></script>
   <script src="./scripts/slider.js" defer></script>
 </body>
 </html>
