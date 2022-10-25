@@ -83,7 +83,19 @@
               <input type="radio" name="donation-way" id="apple-pay" class="donation__item donation__item_el_donation-sum">
               <span class="donation__visible-radio donation__visible-radio_sum donation__visible-radio_sum_big "><img class="max-donation__sumbol_apay" src="/images/Pay.svg" alt=""></span>
             </label>  
-          </fieldset>  
+          </fieldset> 
+          <p class="max-donation__title">Банковская карта</p>
+          <fieldset class="max-donation__fieldset-card">
+            <div class="max-donation__fieldset-card-frontside">
+              <input type="text" class="max-donation__field-card-num input input_width_l input_height_m input_color_light" id="field-card-num" name="field-card-num" placeholder="Номер карты" value="">
+              <input type="text" class="max-donation__field-card-owner input input_width_l input_height_m input_color_light" id="field-card-owner" name="field-card-owner" placeholder="Держатель карты" value="">
+              <p>Действует до</p> <p>Итого к оплате</p> <p>1000 &#8381;</p>
+              <input type="text" class="max-donation__field-card-data input input_width_m input_height_m input_color_light" id="field-card-data" name="field-card-data" placeholder="ММ / ГГ" value="">
+            </div>
+            <div class="max-donation__fieldset-card-backside">
+            <input type="text" class="max-donation__field-card-c input input_width_s input_height_s input_color_light" id="field-card-c" name="field-card-c" placeholder="&#8727;&#8727;&#8727;" value="">
+            </div>
+          </fieldset>
           <button class="donation__donat-button" type="button" value="Поддержать фонд" id="donation-button">Поддержать фонд</button>
           </form>
 

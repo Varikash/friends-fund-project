@@ -1,0 +1,45 @@
+.max-donation__fieldset-card {
+  display: flex;
+  gap: 56px;
+}
+
+
+.input {
+  border: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 18px 18px 18px 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  outline-style: none;
+}
+
+.input_color_light {
+  background: #FFFFFF;
+}
+
+.input_color_dark {
+  background-color: #F8F8F8;
+}
+
+.input_height_m {
+  height: 56px;
+}
+
+.input_height_s {
+  height: 48px;
+}
+
+.input_width_l {
+  width: 100%;
+}
+
+.input_width_m {
+  width: 96px;
+}
+
+.input_width_s {
+  width: 64px;
+}
