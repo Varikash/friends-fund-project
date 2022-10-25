@@ -1,4 +1,4 @@
-.max-donation__text_italic {
+.max-donation__text_font-style_italic {
   font-style: italic;
   font-weight: 400;
   font-size: 40px;
@@ -6,14 +6,14 @@
 }
 
   @media screen and (max-width: 900px) {
-    .max-donation__text_italic {
+    .max-donation__text_font-style_italic {
       font-size: 45px;
       line-height: 42px;
     }
   }
 
 @media screen and (max-width: 770px) {
-  .max-donation__text_italic {
+  .max-donation__text_font-style_italic {
     font-size: 38px;
     line-height: 44px;
   }

@@ -3,15 +3,12 @@
   flex-direction: column;
   align-items: center;
   background: linear-gradient(#82607D 50%, white 0%);
-  max-height: 1000px;
   position: relative;
 }
 
 @media screen and (max-width: 768px) {
   .max-donation {
     background: linear-gradient(#82607D 63%, white 0%);
-    max-height: 1500px;
-    /* max-width: 375px; */
   }
 }
 

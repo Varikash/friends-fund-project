@@ -1,4 +1,4 @@
-.donation__visible-radio_time {
+.donation__visible-radio_el_time {
   position: relative;
   width: 288px;
   height: 28px;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 875px) {
-  .donation__visible-radio_time {
+  .donation__visible-radio_el_time {
     width: 200px;
   }
 }
 
 @media screen and (max-width: 555px) {
-  .donation__visible-radio_time {
+  .donation__visible-radio_el_time {
     width: 164px;
   }
 }
