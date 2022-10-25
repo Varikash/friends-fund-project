@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   padding-left: 18px;
-  column-gap: 40px;
+  column-gap: 3%;
   /* position: relative; */
   z-index: 95;
 }
