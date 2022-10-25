@@ -82,7 +82,7 @@ class Slider {
         ...config,
       };
       
-      if (selector.id === 'heroes'){
+      if (selector.id === 'heroes' || selector.id === "friends"){
         this._config.autoplay = true
       }
       

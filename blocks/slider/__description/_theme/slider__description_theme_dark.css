@@ -2,7 +2,6 @@
     color: #000;
     font-size: 18px;
     line-height: 26px;
-    max-width: 368px;
 }
 
 @media screen and (max-width: 1180px) {
@@ -14,7 +13,7 @@
 
 @media screen and (max-width: 768px) {
     .slider__description_theme_dark{
-        max-width: 190px;
+        max-width: 311px;
         font-size: 16px;
     }
 }
