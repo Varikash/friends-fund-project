@@ -2,6 +2,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 550px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -10,10 +11,8 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .slider__photo{
-        left: 104px;
-        top: 207px;
-        width: 100%;
+        display: none;
     }
 }

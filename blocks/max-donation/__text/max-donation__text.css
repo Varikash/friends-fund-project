@@ -1,10 +1,28 @@
 .max-donation__text {
   margin: 0;
-  width: 855px;
+  max-width: 855px;
   font-weight: 700;
-  font-size: 42px;
-  line-height: 56px;
+  font-size: 44px;
+  line-height: 58px;
   color: white;
   text-align: center;
   padding: 55px 213px;
 }
+
+@media screen and (max-width: 770px) {
+  .max-donation__text {
+    padding: 0;
+    margin: 40px 70px 40px 24px;
+    text-align: left;
+    max-width: 312px;
+    font-size: 38px;
+    line-height: 42px;
+  }
+}
+
+/* @media screen and (max-width: 426px) {
+  .max-donation__text {
+    padding: 0;
+    margin: 40px 70px 40px 24px;
+  }
+} */

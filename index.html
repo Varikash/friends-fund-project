@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-
+  
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -295,7 +295,7 @@
       </section>
       <section class="friends">
         <h2 class="friends__title">Наши друзья</h2>
-        <div class="slider" data-slider>
+        <div class="slider" id="friends" data-slider>
           <div class="slider__container">
             <div class="slider__items">
               <div class="slider__item slider__item_picture_grey">
@@ -312,26 +312,78 @@
               </div>
               <div class="slider__item slider__item_picture_grey">
                 <div class="slider__item-background">
-                  <div class="slider__text-container">
-                    <h2 class="slider__title slider__title_theme_dark">Благотворительность &mdash;&nbsp;это <span
-                        class="slider__title_italic">состояние души</span></h2>
+                  <div class="slider__text-container slider__text-container_reverse">
+                    <h2 class="slider__title slider__title_theme_dark">Мы пытаемся изменить «ландшафт», чтобы проблемы в сфере детской онкологии <span class="slider__title_italic">решались системно</span></h2>
                     <p class="slider__description slider__description_theme_dark"><span
-                        class="slider__description_bold">Константин Хабенский</span> , актер, режиссер, основатель Фонда
-                      Константина Хабенского</p>
+                        class="slider__description_bold">Чулпан Хаматова,</span> актриса, учредитель фонда «Подари жизнь»</p>
                   </div>
-                  <img class="slider__photo" src="images/slider_charity.png" alt="Благотворительность состояние душ">
+                  <img class="slider__photo slider__photo_reverse" src="images/Chulpan_Hamatova.png" alt="Благотворительность состояние душ">
+                </div>
+              </div>
+              <div class="slider__item slider__item_picture_grey">
+                <div class="slider__item-background">
+                  <div class="slider__text-container slider__text-container_reverse">
+                    <h2 class="slider__title slider__title_theme_dark">Смысл нашей работы в том, чтобы человеку в конце жизни было не больно, не стыдно и не одиноко — <span class="slider__title_italic">а значит, не страшно</span></h2>
+                    <p class="slider__description slider__description_theme_dark"><span
+                        class="slider__description_bold">Ингеборга Дапкунайте,</span> актриса, сопредседатель попечительского совета Фонда помощи хосписам “Вера”
+                    </p>
+                  </div>
+                  <img class="slider__photo slider__photo_reverse" src="images/Ингеборга Дапкунайте.png" alt="Благотворительность состояние душ">
                 </div>
               </div>
               <div class="slider__item slider__item_picture_grey">
                 <div class="slider__item-background">
                   <div class="slider__text-container">
-                    <h2 class="slider__title slider__title_theme_dark">Благотворительность &mdash;&nbsp;это <span
-                        class="slider__title_italic">состояние души</span></h2>
+                    <h2 class="slider__title slider__title_theme_dark">Я фанат своего дела, но главным предназначением считаю помощь <span class="slider__title_italic">людям</span></h2>
                     <p class="slider__description slider__description_theme_dark"><span
-                        class="slider__description_bold">Константин Хабенский</span> , актер, режиссер, основатель Фонда
-                      Константина Хабенского</p>
+                        class="slider__description_bold">Александр Петров,</span> актер, попечитель фонда “Дом с маяком”
+                    </p>
                   </div>
-                  <img class="slider__photo" src="images/slider_charity.png" alt="Благотворительность состояние душ">
+                  <img class="slider__photo" src="images/Петров.png" alt="Благотворительность состояние душ">
+                </div>
+              </div>
+              <div class="slider__item slider__item_picture_grey">
+                <div class="slider__item-background">
+                  <div class="slider__text-container slider__text-container_reverse">
+                    <h2 class="slider__title slider__title_theme_dark">Даже самые небольшие пожертвования делают очень большое дело и оказывают действительно <span class="slider__title_italic">огромную помощь</span></h2>
+                    <p class="slider__description slider__description_theme_dark"><span
+                        class="slider__description_bold">Данила Козловский,</span> актер, попечитель фонда “Дети-бабочки”
+                    </p>
+                  </div>
+                  <img class="slider__photo slider__photo_reverse" src="images/Козловский.png" alt="Благотворительность состояние душ">
+                </div>
+              </div>
+              <div class="slider__item slider__item_picture_grey">
+                <div class="slider__item-background">
+                  <div class="slider__text-container">
+                    <h2 class="slider__title slider__title_theme_dark">Меняя отношение к пожилым сейчас, мы создаем будущее, где будет <span class="slider__title_italic">комфортно всем</span></h2>
+                    <p class="slider__description slider__description_theme_dark"><span
+                        class="slider__description_bold">Лиза Арзамасова,</span> актриса, член попечительского совета фонда “Старость в радость”
+                    </p>
+                  </div>
+                  <img class="slider__photo" src="images/Дочка.png" alt="Благотворительность состояние душ">
+                </div>
+              </div>
+              <div class="slider__item slider__item_picture_grey">
+                <div class="slider__item-background">
+                  <div class="slider__text-container slider__text-container_reverse">
+                    <h2 class="slider__title slider__title_theme_dark">Трудные подростки — это не трудные дети,это дети, <span class="slider__title_italic">которым трудно</span></h2>
+                    <p class="slider__description slider__description_theme_dark"><span
+                        class="slider__description_bold">Саша Бортич,</span> Актриса, попечительница фонда “Шалаш”
+                    </p>
+                  </div>
+                  <img class="slider__photo slider__photo_reverse" src="images/Бортич.png" alt="Благотворительность состояние душ">
+                </div>
+              </div>
+              <div class="slider__item slider__item_picture_grey">
+                <div class="slider__item-background">
+                  <div class="slider__text-container">
+                    <h2 class="slider__title slider__title_theme_dark">Причин оказаться без крыши над головой — сотни. Если кто-то думает, что он застрахован от этого, <span class="slider__title_italic">то ошибается</span></h2>
+                    <p class="slider__description slider__description_theme_dark"><span
+                        class="slider__description_bold">Юрий Шевчук,</span> музыкант, друг благотворительной организации «Ночлежка»
+                    </p>
+                  </div>
+                  <img class="slider__photo slider__photo_size_s" src="images/Ддт.png" alt="Благотворительность состояние душ">
                 </div>
               </div>
             </div>
@@ -346,6 +398,11 @@
             <li class="slider__indicator" data-slide-to="0"></li>
             <li class="slider__indicator" data-slide-to="1"></li>
             <li class="slider__indicator" data-slide-to="2"></li>
+            <li class="slider__indicator" data-slide-to="3"></li>
+            <li class="slider__indicator" data-slide-to="4"></li>
+            <li class="slider__indicator" data-slide-to="5"></li>
+            <li class="slider__indicator" data-slide-to="6"></li>
+            <li class="slider__indicator" data-slide-to="7"></li>
           </ol>
         </div>
       </section>
@@ -356,7 +413,7 @@
           <li class="blog__main-card">
             <p class="blog__inscription">СТАТИСТИКА</p>
             <p class="blog__data">7 ИЮЛЯ 2021</p>
-            <h3 class="blog__heading"><a class="blog__heading-link" target="_blank" href="#">Россияне <br> и
+            <h3 class="blog__heading"><a class="blog__heading-link" target="_blank" href="#">Россияне и
                 благотворительность</a></h3>
             <h4 class="blog__description">Что статистика знает о добрых делах</h4>
           </li>
@@ -474,8 +531,8 @@
       </section>
       <section class="distribution">
         <div class="distribution__info">
-          <h3 class="distribution__title">Подпишитесь на новостную <br>рассылку программы</h3>
-          <p class="distribution__subtitle">и получайте первыми наши новости и приглашения <br> на семинары/вебинары</p>
+          <h3 class="distribution__title">Подпишитесь на новостную рассылку/вебинары</h3>
+          <p class="distribution__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
         </div>
         <form class="distribution__form" name="distribution-form" id="distribution-form" action="#">
           <fieldset class="distribution__fieldset">
@@ -520,8 +577,8 @@
         </div>
       </section>
       <section class="donation">
-        <h2 class="donation__text">Поддержите «Друзей» или станьте <br> <span
-            class=" donation__text donation__text_italic">нашим партнером</span></h2>
+        <p class="donation__text">Поддержите «Друзей» или станьте 
+          <span class=" donation__text donation__text_italic">нашим партнером</span> </p>
         <form class="donation__form" action="#">
           <p class="donation__title">Поддержать друзей:</p>
           <fieldset class="donation__fieldset">
