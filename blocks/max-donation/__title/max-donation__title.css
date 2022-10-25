@@ -8,7 +8,7 @@
   padding: 40px 260px 0 64px;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 460px) {
   .max-donation__title {
     padding: 0;
     margin: 24px 24px;
