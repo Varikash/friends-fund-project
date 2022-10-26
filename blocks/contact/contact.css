@@ -21,15 +21,15 @@
   margin: 0;
   font-family: 'Inter', serif, sans-serif;
   font-weight: 700;
-  font-size: 44px;
+  font-size: 42px;
   line-height: 57px;
   text-align: center;
 }
 
 @media screen and (max-width: 700px) {
   .contact__title {
-    font-size: 32px;
-    line-height: 41px;
+    font-size: 30px;
+    line-height: 42px;
   }
 }
 
@@ -76,7 +76,7 @@
   border-radius: 56px;
   font-family: 'Inter', serif, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   background-color: #f8f8f8;
   outline:none;
@@ -95,7 +95,7 @@
   border-radius: 56px;
   font-family: 'Inter', serif, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   background-color: #f8f8f8;
   outline:none;
@@ -116,7 +116,7 @@
   resize: none;
   font-family: 'Inter', serif, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   background-color: #f8f8f8;
   outline:none;
@@ -207,7 +207,7 @@
   border-radius: 56px;
   font-family: 'Inter', serif, sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   transition: linear .5s;
   box-sizing: border-box;
