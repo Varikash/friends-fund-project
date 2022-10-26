@@ -1,0 +1,61 @@
+.about__briefcase {
+  width: 116px;
+  height: 105px;
+  background-image: url('../../../images/briefcase.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 21px;
+  margin-right: 49px;
+  margin-left: 4px;
+}
+
+.about__briefcase::before {
+  content: '';
+  background-color: #EEB250;
+  width: 9px;
+  height: 9px;
+  border-radius: 136px;
+  position: absolute;
+  right: 9%;
+  top: -23px;
+  z-index: 1;
+}
+
+.about__briefcase::after {
+  content: '';
+  background-color: #77C5D5;
+  width: 7px;
+  height: 7px;
+  border-radius: 136px;
+  position: absolute;
+  left: -24%;
+  top: 11px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .about__briefcase {
+    width: 76px;
+    height: 69px;
+    padding: 20px;
+    /* background-position: 0 0; */
+    margin-top: 18px;
+    margin-right: 31px;
+  }
+
+  .about__briefcase::before {
+    width: 4px;
+    height: 4px;
+    right: 14px;
+    top: -31px;
+  }
+
+  .about__briefcase::after {
+    background-color: #EF9100;
+    width: 4px;
+    height: 4px;
+    left: auto;
+    right: -9px;
+    top: -27px;
+  }
+}

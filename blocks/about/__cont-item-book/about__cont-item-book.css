@@ -1,0 +1,26 @@
+.about__cont-item-book {
+  position: relative;
+  z-index: 3;
+  margin: -43px auto 0 20.5%;
+  background-color: #528CBE;
+}
+
+@media screen and (max-width: 1000px) {
+  .about__cont-item-book {
+    margin-left: 13%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about__cont-item-book {
+    z-index: 4;
+    margin-top: -8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about__cont-item-book {
+    margin-left: 6%;
+    width: 283px;
+  }
+}

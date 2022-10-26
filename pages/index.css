@@ -5,6 +5,7 @@
 
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/section-title/section-title.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_position/header_position_sticky.css);
 @import url(../blocks/menu-icon/menu-icon.css);
@@ -37,7 +38,7 @@
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__button-text/header__button-text.css);
 
-@import url('../blocks/about/about.css'); /*в разработке*/
+
 
 @import url(../blocks/popup-menu-1/popup-menu-1.css);
 @import url(../blocks/popup/popup.css);
@@ -104,6 +105,24 @@
 @import url(../blocks/slider/__item/_logo/slider__item_logo_all.css);
 @import url(../blocks/slider/__link/slider__link.css);
 
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__text-zone/about__text-zone.css');
+@import url('../blocks/about/__question/about__question.css');
+@import url('../blocks/about/__answer-zone/about__answer-zone.css');
+@import url('../blocks/about/__answer/about__answer.css');
+@import url('../blocks/about/__answer/_bold/about__answer_bold.css');
+@import url('../blocks/about/__fig-zone/about__fig-zone.css');
+@import url('../blocks/about/__content-fig/about__content-fig.css');
+@import url('../blocks/about/__fig-item/about__fig-item.css');
+@import url('../blocks/about/__cont-item-bulb/about__cont-item-bulb.css');
+@import url('../blocks/about/__cont-item-book/about__cont-item-book.css');
+@import url('../blocks/about/__cont-item-curve/about__cont-item-curve.css');
+@import url('../blocks/about/__cont-item-briefcase/about__cont-item-briefcase.css');
+@import url('../blocks/about/__bulb/about__bulb.css');
+@import url('../blocks/about/__book/about__book.css');
+@import url('../blocks/about/__curve/about__curve.css');
+@import url('../blocks/about/__briefcase/about__briefcase.css');
+@import url('../blocks/about/__activity/about__activity.css');
 
 @import url(../blocks/friends/friends.css);
 @import url(../blocks/friends/__title/friends__title.css);
@@ -180,7 +199,6 @@
 @import url(../blocks/donation/__fieldset/donation__fieldset.css);
 @import url(../blocks/donation/__field-sum/donation__field-sum.css);
 @import url(../blocks/donation/__item/donation__item.css);
-@import url(../blocks/donation/__item/_el/donation__item_el_donation-time.css);
 @import url(../blocks/donation/__item/_el/donation__item_el_donation-sum.css);
 @import url(../blocks/donation/__visible-radio/donation__visible-radio.css);
 @import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_time.css);
@@ -191,6 +209,7 @@
 @import url(../blocks/donation/__visible-radio/_size/donation__visible-radio_size_big.css);
 @import url(../blocks/donation/__symbol/donation__symbol.css);
 @import url(../blocks/donation/__donat-button/donation__donat-button.css);
+@import url(../blocks/donation/__field-sum/_locked/donation__field-sum_locked.css);
 
 @import url(../blocks/programms/programms.css);
 @import url(../blocks/programms/__header/programms__header.css);
@@ -209,7 +228,6 @@
 
 
 @import url(../blocks/values/values.css);
-@import url(../blocks/values/__title/values__title.css);
 @import url(../blocks/values/__list/values__list.css);
 @import url(../blocks/values/__list-item/values__list-item.css);
 @import url(../blocks/values/__list-subtitle/values__list-subtitle.css);
@@ -225,3 +243,4 @@
 @import url(../blocks/useful/__title/useful__title.css);
 @import url(../blocks/useful/__list-title/useful__list-title.css);
 @import url(../blocks/useful/__list-subtitle/useful__list-subtitle.css);
+@import url(../blocks/useful/__list-marg/useful__list-marg.css);
