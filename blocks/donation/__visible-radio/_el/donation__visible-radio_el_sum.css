@@ -1,0 +1,15 @@
+.donation__visible-radio_el_sum {
+  margin: 0;
+  width: 173px;
+  height: 20px;
+  font-size: 16px;
+  color: black;
+  padding: 18px 0;
+}
+
+@media screen and (max-width: 426px) {
+  .donation__visible-radio_el_sum {
+    width: 148px;
+  }
+}
+

@@ -1,0 +1,8 @@
+.donation__item_el_donation-apple:checked + .donation__visible-radio_el_apple-pay {
+  transition: background-image  1s;
+  background-image: url(/images/apple-pay-white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 78px 36px;
+  background-color: #82607D;
+ }

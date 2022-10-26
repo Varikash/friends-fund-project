@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   width: 328px;
-  height: 432px;
 }
 
 .card-item:nth-of-type(3) {

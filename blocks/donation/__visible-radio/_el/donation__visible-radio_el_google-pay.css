@@ -1,0 +1,19 @@
+.donation__visible-radio_el_google-pay {
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  background-color: #F8F8F8;
+  text-align:center;
+  padding-top: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  cursor: pointer;
+  background-image: url(/images/googlepay1.svg);
+}
+
+.donation__visible-radio_el_google-pay:hover {
+  background-image: url(/images/gogle-pay-checked.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
