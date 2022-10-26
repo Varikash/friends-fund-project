@@ -2,7 +2,7 @@
 
 .question {
   margin: 0;
-  padding: 0px 223px 96px 223px;
+  padding-bottom: 96px;
   display: flex;
   flex-direction: column;
   gap: 32px;
