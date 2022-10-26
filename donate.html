@@ -35,7 +35,7 @@
     </header>
     <main>
       <section class="max-donation" aria-label="donation">
-        <p class="max-donation__text">Поддерживая «Друзей» вы помогаете <span class="max-donation__text_font-style_italic">развитию всей индустрии</span></p>
+        <h1 class="max-donation__text">Поддерживая «Друзей» вы помогаете <span class="max-donation__text_font-style_italic">развитию всей индустрии</span></h1>
         <form class="max-donation__form" action="#">
           <p class="max-donation__title">Выберите тип и сумму пожертвования</p>
           <fieldset class="max-donation__fieldset">
@@ -107,7 +107,7 @@
                 <input type="text" class="max-donation__field-card-num input input_width_xxl" id="field-card-num" name="field-card-num" placeholder="Номер карты" value="" required>
                 <input type="text" class="max-donation__field-card-owner input input_width_xxl" id="field-card-owner" name="field-card-owner" placeholder="Держатель карты" value="" required>
                 <p class="max-donation__subtitle-data">Действует до</p>
-                <input type="datе" class="max-donation__field-card-data input input_width_m" id="field-card-data" name="field-card-data" placeholder="ММ / ГГ" value="" required>
+                <input type="text" class="max-donation__field-card-data input input_width_m" id="field-card-data" name="field-card-data" placeholder="ММ / ГГ" value="" required>
                 <div class="max-donation__fieldset-card-sum-info"> 
                   <p class="max-donation__subtitle-sum">Итого к оплате</p>
                   <input type="text" class="max-donation__field-card-sum" value="1000 &#8381;" readonly disabled>
@@ -119,7 +119,7 @@
               <fieldset class="max-donation__fieldset-contact">
                 <input type="text" class="max-donation__field-name input input_width_l" id="field-name" name="field-name" placeholder="Имя" value="" required>
                 <input type="text" class="max-donation__field-secondname input input_width_l" id="field-secondname" name="field-secondname" placeholder="Фамилия" value="" required>
-                <input type="tell" class="max-donation__field-tell input input_width_l" id="field-tell" name="field-tell" placeholder="Телефон" value="" required>
+                <input type="tel" class="max-donation__field-tell input input_width_l" id="field-tell" name="field-tell" placeholder="Телефон" value="" required>
                 <input type="email" class="max-donation__field-mail input input_width_l" id="field-mail" name="field-mail" placeholder="Email" value="" required>
               </fieldset>
             </div>
@@ -246,7 +246,7 @@
         </div>
         <form class="distribution__form" name="distribution-form" id="distribution-form" action="#">
           <fieldset class="distribution__fieldset">
-            <input type="text" class="distribution__field-mail" id="field-mail" name="field-mail" placeholder="&#9993; Введите ваш e-mail" value=""> <!-- доделать крестик очистки поля-->
+            <input type="email" class="distribution__field-mail" id="field-mailadress" name="field-mail" placeholder="&#9993; Введите ваш e-mail" value=""> <!-- доделать крестик очистки поля-->
           </fieldset>
           <button class="distribution__submit-button" type="submit" value="Подписаться" id="distribution-button">Подписаться</button>
         </form>
