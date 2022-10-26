@@ -3,7 +3,7 @@ const contactForm = document.querySelector('.contact');
 const userName = document?.querySelector('.contact__user-name');
 const userEmail = document?.querySelector('.contact__user-email');
 const userMessage = document?.querySelector('.contact__user-message');
-const userAgreement = document?.querySelector('.contact__check-user-agreement');
+const userAgreement = document?.querySelector('#checkbox-user-agreement');
 
 const menuIcon = document.querySelector('.menu-icon');
 const closeBtn = document.querySelector('.popup-menu-1__close-btn');
