@@ -48,28 +48,37 @@
 @import url(../blocks/max-donation/max-donation.css);
 @import url(../blocks/max-donation/__text/max-donation__text.css);
 @import url(../blocks/max-donation/__text/max-donation__text.css);
-@import url(../blocks/max-donation/__text/__italic/max-donation__text_italic.css);
+@import url(../blocks/max-donation/__text/_font-style/max-donation__text_font-style_italic.css);
 @import url(../blocks/max-donation/__title/max-donation__title.css);
 @import url(../blocks/max-donation/__form/max-donation__form.css);
 @import url(../blocks/donation/__item/donation__item.css);
 @import url(../blocks/donation/__visible-radio/donation__visible-radio.css);
 @import url(../blocks/donation/__fieldset/donation__fieldset.css);
-@import url(../blocks/donation/__item/_el/_donation-time/donation__item_el_donation-time.css);
-@import url(../blocks/donation/__visible-radio/_margin/_right/donation__visible-radio_margin_right.css);
-@import url(../blocks/donation/__visible-radio/_margin/_left/donation__visible-radio_margin_left.css);
-@import url(../blocks/donation/__item/_el/_donation-sum/donation__item_el_donation-sum.css);
-@import url(../blocks/donation/__visible-radio/_time/donation__visible-radio_time.css);
-@import url(../blocks/donation/__visible-radio/_sum/donation__visible-radio_sum.css);
-@import url(../blocks/donation/__visible-radio/_margin/donation__visible-radio_margin.css);
+@import url(../blocks/donation/__item/_el/donation__item_el_donation-sum.css);
+@import url(../blocks/donation/__visible-radio/_pos/donation__visible-radio_pos_right.css);
+@import url(../blocks/donation/__visible-radio/_pos/donation__visible-radio_pos_left.css);
+@import url(../blocks/donation/__item/_el/donation__item_el_donation-time.css);
+@import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_time.css);
+@import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_sum.css);
+@import url(../blocks/donation/__visible-radio/_pos/donation__visible-radio_pos_middle.css);
 @import url(../blocks/donation/__field-sum/donation__field-sum.css);
 @import url(../blocks/donation/__symbol/donation__symbol.css);
 @import url(../blocks/donation/__donat-button/donation__donat-button.css);
 @import url(../blocks/max-donation/__fieldset/max-donation__feildset.css);
 @import url(../blocks/max-donation/__sumbol/max-donation__sumbol.css);
 
+@import url(../blocks/donation/__item/_el/donation__item_el_donation-google.css);
+@import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_google-pay.css);
+@import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_apple-pay.css);
+@import url(../blocks/donation/__item/_el/donation__item_el_donation-apple.css);
+@import url(../blocks/donation/__visible-radio/_size/donation__visible-radio_size_big.css);
+@import url(../blocks/max-donation/__description/max-donation__description.css);
+@import url(../blocks/max-donation/__fieldset-card-frontside/max-donation__fieldset-card-frontside.css);
+
+@import url(../blocks/max-donation/__fieldset/_closed/max-donation__fiedset_closed.css);
+@import url(../blocks/max-donation/__description/_visibility/max-donation__description_visibility.css);
 @import url(../blocks/max-donation/__card-frontside/max-donation__card-frontside.css);
 @import url(../blocks/max-donation/__fieldset-card/max-donation__fieldset-card.css);
-
 
 @import url(../blocks/achievements/achievements.css);
 @import url(../blocks/achievements/__list/achievements__list.css);
