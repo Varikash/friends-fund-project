@@ -1,8 +1,8 @@
-.values__title {
+.section-title {
   font-style: normal;
   font-weight: 700;
-  font-size: 44px;
-  line-height: 50px;
+  font-size: 42px;
+  line-height: 1.136;
   padding-top: 96px;
   padding-bottom: 56px;
   margin: 0px;
@@ -10,9 +10,9 @@
 }
 
 @media screen and (max-width: 426px) {
-  .values__title {
-    font-size: 32px;
-    line-height: 44px;
+  .section-title {
+    font-size: 30px;
+    line-height: 1.375;
     padding-top: 56px;
     padding-bottom: 24px;
   }
