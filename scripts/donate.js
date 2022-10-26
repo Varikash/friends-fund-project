@@ -12,6 +12,11 @@ const secondLevelPopupOpener = document.querySelector('#secondLevel');
 const popupOne = document.querySelector('.popup-menu-1');
 const popupTwo = document.querySelector('.popup-menu-2');
 
+const donationTimeMonthly = document.querySelector('#monthly-donation');
+const donationTimeSingle = document.querySelector('#single-donation');
+const donationText = document.querySelector('.max-donation__description');
+const monthlySum = document.querySelector('.max-donation__fieldset_closed');
+const singleSum = document.querySelector('#fieldset-single-sum');
 
 menuIcon?.addEventListener('click', () => {
   burgerMenuOpen(popupOne);
@@ -64,6 +69,14 @@ contactForm?.addEventListener('compositionend', function () {
 });
 
 
+donationTimeMonthly.addEventListener('click', function() {
+  openMonthlyForm();
+});
+
+donationTimeSingle.addEventListener('click', function() {
+  closeMonthlyForm();
+});
+
 /* ----------------------------Функции----------------------------------- */
 
 /**
@@ -78,4 +91,17 @@ function burgerMenuOpen (popupElement) {
  */
 function burgerMenuClose (popupElement) {
   popupElement.classList.remove('popup_active');
+}
+
+
+function openMonthlyForm() {
+  donationText.classList.add('max-donation__description_visibility');
+  monthlySum.classList.add('max-donation__description_visibility');
+  singleSum.classList.add('max-donation__fieldset_closed');
+};
+
+function closeMonthlyForm() {
+  donationText.classList.remove('max-donation__description_visibility');
+  monthlySum.classList.remove('max-donation__description_visibility');
+  singleSum.classList.remove('max-donation__fieldset_closed');
 }
