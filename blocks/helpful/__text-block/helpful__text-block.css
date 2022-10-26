@@ -1,0 +1,9 @@
+.helpful__text-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 472px;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

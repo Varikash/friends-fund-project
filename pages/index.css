@@ -38,7 +38,7 @@
 @import url(../blocks/header/__button-text/header__button-text.css);
 
 @import url('../blocks/about/about.css'); /*в разработке*/
-@import url('../blocks/question/question.css'); /*в разработке*/
+
 @import url(../blocks/popup-menu-1/popup-menu-1.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_active/popup_active.css);
@@ -79,6 +79,7 @@
 @import url(../blocks/slider/__description/_theme/slider__description_theme_dark.css);
 @import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/slider/__text-container/slider__text-container.css);
+@import url(../blocks/slider/__text-container/_up/slider__text-container_up.css);
 @import url(../blocks/slider/__text-container/_reverse/slider__text-container_reverse.css);
 @import url(../blocks/slider/__title/_size/slider__title_size_s.css);
 @import url(../blocks/slider/__title/_size/slider__title_size_sm.css);

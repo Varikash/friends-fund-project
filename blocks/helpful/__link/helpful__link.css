@@ -1,0 +1,4 @@
+.helpful__link {
+  cursor: pointer;
+  transition: linear .5s;
+}

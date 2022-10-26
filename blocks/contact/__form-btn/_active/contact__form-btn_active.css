@@ -1,0 +1,8 @@
+.contact__form-btn_active {
+  background-color: #528CBE;
+  color: #fff;
+}
+
+.contact__form-btn_active:hover {
+  background-color: #487FAE;
+}

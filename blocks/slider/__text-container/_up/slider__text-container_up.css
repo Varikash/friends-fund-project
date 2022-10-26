@@ -1,0 +1,10 @@
+.slider__text-container_up{
+    padding-top: 125px;
+}
+
+@media screen and (max-width: 768px) {
+    .slider__text-container_up{
+        padding-top: 24px;
+        padding-right: 16px;
+    }
+}
