@@ -1,0 +1,61 @@
+.about__curve {
+  width: 128px;
+  height: 96px;
+  background-image: url('../../../images/curve.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 26px;
+  margin-right: 34px;
+}
+
+.about__curve::before {
+  content: '';
+  background-color: #DE6F7E;
+  width: 23px;
+  height: 23px;
+  border-radius: 136px;
+  position: absolute;
+  z-index: 1;
+  top: 78px;
+  left: -49px;
+}
+
+.about__curve::after {
+  content: '';
+  background-color: #528CBE;
+  width: 23px;
+  height: 23px;
+  border-radius: 136px;
+  position: absolute;
+  z-index: 1;
+  top: -66px;
+  left: 221px;
+}
+
+@media screen and (max-width: 800px) {
+  .about__curve {
+    width: 82px;
+    height: 60px;
+    padding: 40px;
+    background-size: 84px 61px;
+    background-position: 0 0;
+    margin-top: 23px;
+    margin-right: -14px;
+    margin-left: 4px;
+  }
+
+  .about__curve::before {
+    width: 14px;
+    height: 14px;
+    top: 29px;
+    left: -31px;
+  }
+
+  .about__curve::after {
+    background-color: #77C5D5;
+    width: 4px;
+    height: 4px;
+    top: 70px;
+    left: -9px;
+  }
+}
