@@ -18,6 +18,14 @@ const donationText = document.querySelector('.max-donation__description');
 const monthlySum = document.querySelector('.max-donation__fieldset_closed');
 const singleSum = document.querySelector('#fieldset-single-sum');
 
+const donation5000 = document.querySelector('#sum5000');
+const anotherSum = document.querySelector('.donation__field-sum');
+const donation10000 = document.querySelector('#sum10000');
+const donation50000 = document.querySelector('#sum50000');
+const donation10000r = document.querySelector('#sum10000r');
+const donation5000r = document.querySelector('#sum5000r');
+const donation1000 = document.querySelector('#sum1000');
+
 menuIcon?.addEventListener('click', () => {
   burgerMenuOpen(popupOne);
 })
@@ -105,3 +113,12 @@ function closeMonthlyForm() {
   monthlySum.classList.remove('max-donation__description_visibility');
   singleSum.classList.remove('max-donation__fieldset_closed');
 }
+
+anotherSum.addEventListener('click',function(e) {
+  donation5000.checked = false;
+  donation10000.checked = false;
+  donation50000.checked = false;
+  donation10000r.checked = false;
+  donation5000r.checked = false;
+  donation1000.checked = false;
+});
