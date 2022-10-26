@@ -4,20 +4,33 @@
   width: 100%;
   height: 56px;
   background-color: #EEB250;
-  color: #fff;
   border: none;
   cursor: pointer;
   white-space: nowrap;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.header__button:active {
-  background-color: #000;
-  color: #EEB250;
+@media screen and (max-width: 1199px) {
+  .header__button {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 1049px) {
   .header__button {
     margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 969px) {
+  .header__button {
+    font-size: 16px;
   }
 }
 

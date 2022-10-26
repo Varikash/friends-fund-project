@@ -1,0 +1,11 @@
+.about__cont-item-bulb {
+  position: relative;
+  z-index: 2;
+  background-color: #77C5D5;
+}
+
+@media screen and (max-width: 800px) {
+  .about__cont-item-bulb {
+    z-index: 5;
+  }
+}

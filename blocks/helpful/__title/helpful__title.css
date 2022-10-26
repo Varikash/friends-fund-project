@@ -1,0 +1,16 @@
+.helpful__title {
+  /*font-family: 'Inter', serif, sans-serif;*/
+  margin: 0;
+  padding: 0;
+  font-size: 42px;
+  line-height: 58px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (max-width: 675px) {
+  .helpful__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

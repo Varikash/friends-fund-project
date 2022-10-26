@@ -31,38 +31,52 @@
         <li><a href="#" class="header__language header__language_active link_hover_on">Ру</a></li>
         <li><a href="#" class="header__language link_hover_on">En</a></li>
       </ul>
-      <button class="header__button"><a class="header__button-text link_hover_on" href="./donate.html">Помочь фонду</a></button>
-      
+      <a class="header__button link_hover_on" href="./donate.html">Помочь фонду</a>
     </header>
     <main>
       <section class="max-donation" aria-label="donation">
-        <p class="max-donation__text">Поддерживая «Друзей» <br> вы помогаете <span class="max-donation__text_italic">развитию всей индустрии</span></p>
-
+        <h1 class="max-donation__text">Поддерживая «Друзей» вы помогаете <span class="max-donation__text_font-style_italic">развитию всей индустрии</span></h1>
         <form class="max-donation__form" action="#">
           <p class="max-donation__title">Выберите тип и сумму пожертвования</p>
           <fieldset class="max-donation__fieldset">
             <label class="donation__label" for="single-donation">
-              <input type="radio" name="donation-time" id="single-donation" class="donation__item donation__item_el_donation-time">
-              <span class="donation__visible-radio donation__visible-radio_time donation__visible-radio_margin_left">РАЗОВОЕ</span>
+              <input type="radio" name="donation-time" id="single-donation" class="donation__item donation__item_el_donation-time" value="РАЗОВОЕ">
+              <span class="donation__visible-radio donation__visible-radio_el_time donation__visible-radio_pos_left">РАЗОВОЕ</span>
             </label>
             <label class="donation__label" for="monthly-donation">
-              <input type="radio" name="donation-time" id="monthly-donation" class="donation__item donation__item_el_donation-time" checked>
-              <span class="donation__visible-radio donation__visible-radio_time donation__visible-radio_margin_right">ЕЖЕМЕСЯЧНОЕ</span>
+              <input type="radio" name="donation-time" id="monthly-donation" class="donation__item donation__item_el_donation-time" value="ЕЖЕМЕСЯЧНОЕ">
+              <span class="donation__visible-radio donation__visible-radio_el_time donation__visible-radio_pos_right">ЕЖЕМЕСЯЧНОЕ</span>
             </label>
           </fieldset>
+          <p class="max-donation__description">Ежемесячное пожертвование раз в месяц списывается с банковской карты, Google Pay или Apple Pay.
+            В любой момент вы сможете отключить его.</p>
           <p class="max-donation__title">Сумма поддержки</p>
-          <fieldset class="max-donation__fieldset">
+          <fieldset class="max-donation__fieldset" id="fieldset-single-sum">
             <label class="donation__label" for="sum5000">
               <input type="radio" name="donation-sum" id="sum5000" class="donation__item donation__item_el_donation-sum">
-              <span class="donation__visible-radio donation__visible-radio_sum">5 000</span>
+              <span class="donation__visible-radio donation__visible-radio_el_sum">5 000</span>
             </label>       
             <label class="donation__label" for="sum10000">
               <input type="radio" name="donation-sum" id="sum10000" class="donation__item donation__item_el_donation-sum">
-              <span class="donation__visible-radio donation__visible-radio_sum donation__visible-radio_margin">10 000</span>
+              <span class="donation__visible-radio donation__visible-radio_el_sum donation__visible-radio_pos_middle">10 000</span>
             </label> 
             <label class="donation__label" for="sum50000">
               <input type="radio" name="donation-sum" id="sum50000" class="donation__item donation__item_el_donation-sum">
-              <span class="donation__visible-radio donation__visible-radio_sum donation__visible-radio_sum_big ">50 000</span>
+              <span class="donation__visible-radio donation__visible-radio_el_sum donation__visible-radio_size_big ">50 000</span>
+            </label>  
+          </fieldset>
+          <fieldset class="max-donation__fieldset max-donation__fieldset_closed">
+            <label class="donation__label" for="sum1000">
+              <input type="radio" name="donation-sum" id="sum1000" class="donation__item donation__item_el_donation-sum">
+              <span class="donation__visible-radio donation__visible-radio_el_sum">1 000</span>
+            </label>       
+            <label class="donation__label" for="sum5000r">
+              <input type="radio" name="donation-sum" id="sum5000r" class="donation__item donation__item_el_donation-sum">
+              <span class="donation__visible-radio donation__visible-radio_el_sum donation__visible-radio_pos_middle">5 000</span>
+            </label> 
+            <label class="donation__label" for="sum10000r">
+              <input type="radio" name="donation-sum" id="sum10000r" class="donation__item donation__item_el_donation-sum">
+              <span class="donation__visible-radio donation__visible-radio_el_sum donation__visible-radio_size_big ">10 000</span>
             </label>  
           </fieldset>
           <fieldset class="max-donation__fieldset">
@@ -73,26 +87,63 @@
           <fieldset class="max-donation__fieldset">
             <label class="donation__label" for="bank-card">
               <input type="radio" name="donation-way" id="bank-card" class="donation__item donation__item_el_donation-sum">
-              <span class="donation__visible-radio donation__visible-radio_sum"><img src="/images/viza+mir.svg" alt=""></span>
+              <span class="donation__visible-radio donation__visible-radio_el_sum"><img src="/images/viza+mir.svg" alt="карты виза мир"></span>
             </label>       
             <label class="donation__label" for="google-pay">
-              <input type="radio" name="donation-way" id="google-pay" class="donation__item donation__item_el_donation-sum">
-              <span class="donation__visible-radio donation__visible-radio_sum donation__visible-radio_margin"><img class="max-donation__sumbol" src="/images/googlepay1.svg" alt=""></span>
+              <input type="radio" name="donation-way" id="google-pay" class="donation__item donation__item_el_donation-google">
+              <span class="donation__visible-radio_el_google-pay donation__visible-radio_el_sum donation__visible-radio_pos_middle"></span>
             </label> 
             <label class="donation__label" for="apple-pay">
-              <input type="radio" name="donation-way" id="apple-pay" class="donation__item donation__item_el_donation-sum">
-              <span class="donation__visible-radio donation__visible-radio_sum donation__visible-radio_sum_big "><img class="max-donation__sumbol_apay" src="/images/Pay.svg" alt=""></span>
+              <input type="radio" name="donation-way" id="apple-pay" class="donation__item donation__item_el_donation-apple">
+              <span class="donation__visible-radio_el_apple-pay donation__visible-radio_el_sum donation__visible-radio_size_big"></span>
             </label>  
-          </fieldset>  
-          <button class="donation__donat-button" type="button" value="Поддержать фонд" id="donation-button">Поддержать фонд</button>
+          </fieldset> 
+          <div class="max-donation__card-element">
+            <p class="max-donation__title">Банковская карта</p>
+            <div class="max-donation__card-form">
+              <div class="max-donation__card-frontside"></div>
+              <div class="max-donation__card-backside"></div>
+              <fieldset class="max-donation__fieldset-card">
+                <input type="text" class="max-donation__field-card-num input input_width_xxl" id="field-card-num" name="field-card-num" placeholder="Номер карты" value="" required>
+                <input type="text" class="max-donation__field-card-owner input input_width_xxl" id="field-card-owner" name="field-card-owner" placeholder="Держатель карты" value="" required>
+                <p class="max-donation__subtitle-data">Действует до</p>
+                <input type="text" class="max-donation__field-card-data input input_width_m" id="field-card-data" name="field-card-data" placeholder="ММ / ГГ" value="" required>
+                <div class="max-donation__fieldset-card-sum-info"> 
+                  <p class="max-donation__subtitle-sum">Итого к оплате</p>
+                  <input type="text" class="max-donation__field-card-sum" value="1000 &#8381;" readonly disabled>
+                </div>
+                <p class=" max-donation__title-cvc">CVV / CVC</p>
+                <input type="text" class="max-donation__field-card-c input input_width_s" id="field-card-c" name="field-card-c" placeholder="&#8727;&#8727;&#8727;" value="" required>
+                <p class="max-donation__subtitle-cvc">Последние 3 цифры на белой полосе с обратной стороны карты</p>
+              </fieldset>
+              <fieldset class="max-donation__fieldset-contact">
+                <input type="text" class="max-donation__field-name input input_width_l" id="field-name" name="field-name" placeholder="Имя" value="" required>
+                <input type="text" class="max-donation__field-secondname input input_width_l" id="field-secondname" name="field-secondname" placeholder="Фамилия" value="" required>
+                <input type="tel" class="max-donation__field-tell input input_width_l" id="field-tell" name="field-tell" placeholder="Телефон" value="" required>
+                <input type="email" class="max-donation__field-mail input input_width_l" id="field-mail" name="field-mail" placeholder="Email" value="" required>
+              </fieldset>
+            </div>
+          </div>
+          <fieldset class="max-donation__fieldset-agreement">
+            <label class="contact__checkbox-zone" for="offer">
+              <input class="contact__check-user-agreement" type="checkbox" name="offer" id="offer" required>
+              <span class="contact__check-on"></span>
+              Я согласен с <a class="contact__user-agreement" href="#">офертой</a>
+            </label>
+            <label class="contact__checkbox-zone" for="personal-data">
+              <input class="contact__check-user-agreement" type="checkbox" name="personal-data" id="personal-data" required>
+              <span class="contact__check-on"></span>
+              Ознакомился и согласен с <a class="contact__user-agreement" href="#">политикой обработки персональных данных</a>
+            </label>
+          </fieldset>
+          <button class="donation__donat-button donation__donat-button_color_blue" type="button" value="Поддержать фонд" id="donation-button">Поддержать фонд</button>
           </form>
-
       </section>
       <section class="question question_donate"> 
         <h2 class="question__title">Остались вопросы? Пишите и звоните нам</h2>
         <div class="question__contact-zone">
           <a class="question__contact-info" href="mailto:friends@friends-foundation.com">friends@friends-foundation.com</a>
-          <p class="question__contact-info">+7 977 277-07-17</p>
+          <a class="question__contact-info" href="tel:+79772770717">+7 977 277-07-17</a>
         </div>
       </section>
       <section class="achievements" aria-label="achievement">
@@ -126,7 +177,7 @@
       </section>
       <section class="helpful">
         <h2 class="helpful__title">Как еще 
-          <span class="helpful__title_cursive">вы можете помочь</span>
+          <span class="helpful__title helpful__title_cursive">вы можете помочь</span>
         </h2>
         <ul class="helpful__content">
       
@@ -136,17 +187,17 @@
               <p class="helpful__item-text">Помогая фондам своими профессиональными 
                 навыками, Вы сохраняете средства в бюджете организаций и 
                 позволяете им помочь еще большему количеству людей.</p>
-              <a class="helpful__item-url helpful__link about__fig-item_color_gray" href="https://procharity.ru/" target="_blank">
+              <a class="helpful__item-url helpful__link" href="https://procharity.ru/" target="_blank">
                 <p class="helpful__url-text">Перейти на сайт ProCharity</p>
                 <div class="helpful__item-arrow"></div>
               </a>  
             </div>
             <a class="helpful__url-img helpful__link" href="https://ru-ru.facebook.com/FriendsFund/" target="_blank">
-              <img class="url__image" src="./images/fb-screen.jpg" alt="сообщество Фонда Друзья в FaceBook">
+              <img class="url-image" src="./images/fb-screen.jpg" alt="сообщество Фонда Друзья в FaceBook">
             </a>
           </li>
       
-          <li class="helpful__item helpful__flex_reverse">
+          <li class="helpful__item helpful__item_reverse">
             <div class="helpful__text-block helpful__text-block_reverse">
               <h3 class="helpful__item-title">Стать попечителем</h3>
               <p class="helpful__item-text">Инвестируя в одну из программ фонда 
@@ -157,7 +208,7 @@
               <a class="helpful__item-e-mail helpful__link" href="mailto:e.gosteva@friends-foundation.com">e.gosteva@friends-foundation.com</a>
             </div>
             <a class="helpful__url-img helpful__link" href="https://www.instagram.com/friendsfund/" target="_blank">
-              <img class="url__image" src="./images/ig-screen.png" alt="сообщество Фонда Друзья в Instagram">
+              <img class="url-image" src="./images/ig-screen.png" alt="сообщество Фонда Друзья в Instagram">
             </a>
           </li>
       
@@ -172,16 +223,16 @@
           </li>
         </ul>
       </section>
-      <section class="tell-about" aria-label="about"></section>
+     
       <section class="contact">
         <h2 class="contact__title">Связаться с нами</h2>
         <p class="contact__text">Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня</p>
         <form class="contact__form" action="#">
           <input class="contact__user-name" type="text" placeholder="Имя" name="Имя пользователя" required>
           <input class="contact__user-email" type="email" placeholder="E-mail" name="E-mail пользователя" required>
-          <textarea class="contact__user-message" name="Сообщение пользователя" placeholder="Сообщение" required></textarea> <!--id="#" cols="30" rows="10" -->
-          <label class="contact__checkbox-zone" for="checkbox">
-            <input class="contact__check-user-agreement" type="checkbox" name="Пользовательское сошлашение" id="checkbox" required>
+          <textarea class="contact__user-message" name="Сообщение пользователя" placeholder="Сообщение" required></textarea>
+          <label class="contact__checkbox-zone" for="checkbox-user-agreement">
+            <input class="contact__check-user-agreement" type="checkbox" name="Пользовательское сошлашение" id="checkbox-user-agreement" required>
             <span class="contact__check-on"></span>
             Я согласен с <a class="contact__user-agreement" href="#">пользовательским соглашением</a>
           </label>
@@ -190,12 +241,12 @@
       </section>
       <section class="distribution">
         <div class="distribution__info">
-          <h3 class="distribution__title">Подпишитесь на новостную <br> рассылку/вебинары</h3>
+          <h3 class="distribution__title">Подпишитесь на новостную рассылку/вебинары</h3>
           <p class="distribution__subtitle">и получайте первыми наши новости и приглашения <br> на семинары/вебинары</p>
         </div>
         <form class="distribution__form" name="distribution-form" id="distribution-form" action="#">
           <fieldset class="distribution__fieldset">
-            <input type="text" class="distribution__field-mail" id="field-mail" name="field-mail" placeholder="&#9993; Введите ваш e-mail" value=""> <!-- доделать крестик очистки поля-->
+            <input type="email" class="distribution__field-mail" id="field-mailadress" name="field-mail" placeholder="&#9993; Введите ваш e-mail" value=""> <!-- доделать крестик очистки поля-->
           </fieldset>
           <button class="distribution__submit-button" type="submit" value="Подписаться" id="distribution-button">Подписаться</button>
         </form>

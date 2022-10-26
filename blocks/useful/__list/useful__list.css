@@ -7,9 +7,18 @@
   gap: 24px;
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1296px) {
   .useful__list {
+    width: 100%;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .useful__list {
+    width: 100%;
+    align-items: stretch;
+    gap: 16px;
   }
 }

@@ -1,6 +1,6 @@
 .question__title {
   font-weight: 700;
-  font-size: 44px;
+  font-size: 42px;
   line-height: 50px;
   text-align: center;
   margin: 0;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 575px) {
   .question__title {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 44px;
   }
 }

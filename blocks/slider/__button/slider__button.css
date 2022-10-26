@@ -4,16 +4,24 @@
     border-radius: 48px;
     text-align: center;
     border:0;
-    font-family: 'Berlin Type';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    transition: 2s;
+    transition: 0.3s;
     margin-top: 56px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    cursor: pointer;
 }
 
 .slider__button:hover {
-    background-color: black;
-    color: #fff;
+    background-color: #F8F8F8;
+}
+
+.slider__button:active {
+    transition: 0s;
+    color: #54A8B6;
+    background-color: #fff;
 }

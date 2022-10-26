@@ -5,8 +5,6 @@
   display: flex;
   justify-content: space-between;
   padding-left: 18px;
-  column-gap: 40px;
-  /* position: relative; */
   z-index: 95;
 }
 

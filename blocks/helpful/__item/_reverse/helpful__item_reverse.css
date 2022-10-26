@@ -1,0 +1,14 @@
+.helpful__item_reverse {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  gap: 0px;
+}
+
+@media screen and (max-width: 1166px) {
+  .helpful__flex_reverse {
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

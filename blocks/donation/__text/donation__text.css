@@ -30,6 +30,7 @@
 
 @media screen and (max-width: 426px) {
   .donation__text {
+    max-width: 312px;
     font-size: 27px;
     line-height: 38px;
     margin-left: 24px;

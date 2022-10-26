@@ -1,0 +1,17 @@
+.contact__form-btn {
+  grid-area: form-btn;
+  padding: 18px 0;
+  margin-top: 16px;
+  border: none;
+  border-radius: 56px;
+  font-family: 'Inter', serif, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  transition: linear .5s;
+  box-sizing: border-box;
+}
+
+.contact__form-btn:hover {
+  cursor: pointer;
+}

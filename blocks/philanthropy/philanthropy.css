@@ -17,6 +17,7 @@
   .philanthropy {
     background-image: none;
     padding-left: 124px;
+    justify-content: flex-start;
   }
 }
 

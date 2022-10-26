@@ -1,0 +1,5 @@
+.helpful__item-arrow {
+  background-image: url('../../../images/link-arrow.svg');
+  padding: 10px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,18 @@
+.contact__user-email {
+  grid-area: user-email;
+  padding:  18px 32px;
+  margin: 0;
+  border: none;
+  border-radius: 56px;
+  font-family: 'Inter', serif, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #f8f8f8;
+  outline:none;
+  box-sizing: border-box;
+}
+
+.contact__user-email:focus {
+  outline: 1px solid #528CBE;
+}
