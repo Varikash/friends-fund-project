@@ -1,0 +1,12 @@
+.contact__user-agreement {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color:#54a8b6;
+  transition: linear .5s;
+}
+
+.contact__user-agreement:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

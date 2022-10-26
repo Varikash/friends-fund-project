@@ -1,0 +1,34 @@
+.contact__checkbox-zone {
+  padding-left: 30px;
+  grid-area: checkbox-zone;
+  display: block;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  box-sizing: border-box;
+}
+
+.contact__checkbox-zone .contact__check-user-agreement {
+  position: absolute;
+  opacity: 0;
+}
+
+.contact__checkbox-zone .contact__check-user-agreement ~ .contact__check-on {
+  cursor: pointer;
+}
+
+.contact__checkbox-zone .contact__check-user-agreement:hover ~ .contact__check-on {
+  border: 1px solid #54a8b6;
+  box-sizing: border-box;
+}
+
+.contact__checkbox-zone .contact__check-user-agreement:checked ~ .contact__check-on {
+  background-color: #54a8b6;
+  border: none;
+  background-image: url('../../../images/union-white.svg');
+  background-repeat: no-repeat;
+  background-size: 12px 8px;
+  background-position: center center;
+}

@@ -1,0 +1,20 @@
+.contact__user-message {
+  grid-area: user-message;
+  padding:  18px 32px;
+  margin: 0;
+  min-height: 125px;
+  border: none;
+  border-radius: 26px;
+  resize: none;
+  font-family: 'Inter', serif, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #f8f8f8;
+  outline:none;
+  box-sizing: border-box;
+}
+
+.contact__user-message:focus {
+  outline: 1px solid #528CBE;
+}
