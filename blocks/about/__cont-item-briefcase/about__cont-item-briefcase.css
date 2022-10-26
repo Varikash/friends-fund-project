@@ -1,0 +1,19 @@
+.about__cont-item-briefcase {
+  position: relative;
+  z-index: 5;
+  margin: -43px 0 0 auto;
+  background-color: #EEB250;
+}
+
+@media screen and (max-width: 800px) {
+  .about__cont-item-briefcase {
+    z-index: 2;
+    margin-top: -6px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about__cont-item-briefcase {
+    width: 300px;
+  }
+}

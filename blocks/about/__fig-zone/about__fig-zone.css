@@ -1,0 +1,18 @@
+.about__fig-zone {
+  display: flex;
+  position: relative;
+  padding-top: 16px;
+  width: 100%;
+  flex-wrap: wrap;
+  z-index: 1;
+  flex-direction: column;
+  background-image: url('../../../images/about-bg-desc.png');
+  background-repeat: no-repeat;
+  background-position: right 30%;
+}
+
+@media screen and (max-width: 375px) {
+  .about__fig-zone {
+    background-image: url('../../../images/about-bg-mobile.png');
+  }
+}

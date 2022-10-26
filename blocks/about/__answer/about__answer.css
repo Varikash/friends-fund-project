@@ -1,0 +1,14 @@
+.about__answer {
+  margin: 0;
+  padding: 0;
+  /*font-family: 'Inter', serif, sans-serif;*/
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 800px) {
+  .about__answer {
+    line-height: 23px;
+  }
+}

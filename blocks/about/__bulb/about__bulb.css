@@ -1,0 +1,66 @@
+.about__bulb {
+  width: 133px;
+  height: 133px;
+  background-image: url('../../../images/bulb.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  margin-top: 30px;
+  margin-left: 19px;
+  margin-right: 41px;
+}
+
+.about__bulb::before {
+  content: '';
+  background-color: #77C5D5;
+  width: 17px;
+  height: 17px;
+  border-radius: 136px;
+  position: absolute;
+  z-index: 1;
+  top: 44px;
+  right: -231px;
+}
+
+.about__bulb::after {
+  content: '';
+  background-color: #77C5D5;
+  width: 7px;
+  height: 7px;
+  border-radius: 136px;
+  position: absolute;
+  z-index: 1;
+  top: 391px;
+  left: 220px;
+}
+
+@media screen and (max-width: 900px) {
+  .about__bulb::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about__bulb {
+    background-position: 0 0;
+    margin-top: 19px;
+    margin-left: 21px;
+    margin-right: 23px;
+  }
+  
+  .about__bulb::before {
+    display: block;
+    width: 4px;
+    height: 4px;
+    top: 0px;
+    right: -66px;
+  }
+
+  .about__bulb::after {
+    background-color: #54A8B6;
+    width: 10px;
+    height: 10px;
+    top: 171px;
+    left: -14px;
+  }
+}

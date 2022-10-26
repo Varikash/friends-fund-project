@@ -1,0 +1,9 @@
+.useful__list-marg {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 539px) {
+  .useful__list-marg:last-child {
+    margin-top: 8px;
+  }
+}

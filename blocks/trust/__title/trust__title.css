@@ -1,7 +1,7 @@
 .trust__title{
     font-weight: 700;
-    font-size: 44px;
-    line-height: 50px;
+    font-size: 42px;
+    line-height: 1.136;
     text-align: center;
     margin: 0;
     padding-bottom: 23px;
@@ -10,8 +10,8 @@
 
 @media screen and (max-width: 425px) {
     .trust__title{
-        font-size: 32px;
-        line-height: 44px;
+        font-size: 30px;
+        line-height: 1.375;
         padding-top: 56px;
         padding-bottom: 26px;
     }

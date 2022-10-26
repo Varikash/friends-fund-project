@@ -1,0 +1,16 @@
+.about__question {
+  margin: 0;
+  padding: 0;
+  min-width: 49%;
+  /*font-family: 'Inter', serif, sans-serif;*/
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .about__question {
+    font-size: 30px;
+    line-height: 44px;
+  }
+}

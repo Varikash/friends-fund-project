@@ -1,0 +1,13 @@
+.about__answer-zone {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  min-width: 504px;
+  min-width: 49%;
+}
+
+@media screen and (max-width: 800px) {
+  .about__answer-zone {
+    gap: 22px;
+  }
+}

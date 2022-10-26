@@ -1,0 +1,18 @@
+.about__activity {
+  padding: 0;
+  margin: 0;
+  max-width: 215px;
+  /*font-family: 'Inter', serif, sans-serif;*/
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  .about__activity {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
