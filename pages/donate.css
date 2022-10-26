@@ -6,8 +6,6 @@
 @import url(../blocks/question/__contact-info/question__contact-info.css);
 @import url(../blocks/question/__contact-zone/question__contact-zone.css);
 
-@import url('../blocks/contact/contact.css'); /*в разработке*/
-
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/root/root.css);
@@ -107,6 +105,20 @@
 @import url('../blocks/helpful/__item-social/helpful__item-social.css');
 @import url('../blocks/helpful/__item-social/_logo/helpful__item-social_logo_vk.css');
 @import url('../blocks/helpful/__item-social/_logo/helpful__item-social_logo_tg.css');
+
+@import url('../blocks/contact/contact.css');
+@import url('../blocks/contact/__title/contact__title.css');
+@import url('../blocks/contact/__text/contact__text.css');
+@import url('../blocks/contact/__form/contact__form.css');
+@import url('../blocks/contact/__user-name/contact__user-name.css');
+@import url('../blocks/contact/__user-email/contact__user-email.css');
+@import url('../blocks/contact/__user-message/contact__user-message.css');
+@import url('../blocks/contact/__checkbox-zone/contact__checkbox-zone.css');
+@import url('../blocks/contact/__check-user-agreement/contact__check-user-agreement.css');
+@import url('../blocks/contact/__check-on/contact__check-on.css');
+@import url('../blocks/contact/__user-agreement/contact__user-agreement.css');
+@import url('../blocks/contact/__form-btn/contact__form-btn.css');
+@import url('../blocks/contact/__form-btn/_active/contact__form-btn_active.css');
 
 @import url(../blocks/distribution/distribution.css);
 @import url(../blocks/distribution/__info/distribution__info.css);
