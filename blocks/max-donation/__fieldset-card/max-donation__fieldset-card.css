@@ -117,36 +117,6 @@
   background-color: transparent;
 }
 
-.input {
-  border: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
-  box-sizing: border-box;
-  outline-style: none;
-}
-
-.input_color_dark {
-  background-color: #F8F8F8;
-}
-
-.input_width_xxl {
-  width: 100%;
-}
-
-.input_width_l {
-  max-width: 268px;
-}
-
-.input_width_m {
-  width: 96px;
-}
-
-.input_width_s {
-  width: 64px;
-}
-
 .max-donation__fieldset-contact {
   max-width: 552px;
   display: flex;

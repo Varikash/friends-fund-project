@@ -56,6 +56,7 @@
 @import url(../blocks/donation/__donat-button/donation__donat-button.css);
 @import url(../blocks/max-donation/__fieldset/max-donation__feildset.css);
 @import url(../blocks/max-donation/__sumbol/max-donation__sumbol.css);
+@import url(../blocks/donation/__donat-button/_color/donation__donat-button_color_blue.css);
 
 @import url(../blocks/donation/__item/_el/donation__item_el_donation-google.css);
 @import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_google-pay.css);
@@ -159,3 +160,10 @@
 @import url(../blocks/block/_position/block_position_centered.css);
 @import url(../blocks/popup-menu-2/popup-menu-2.css);
 @import url(../blocks/popup-menu-2/__backward/popup-menu-2__backward.css);
+
+@import url(../blocks/input/input.css);
+@import url(../blocks/input/_color/input_color_dark.css);
+@import url(../blocks/input/_width/input_width_xxl.css);
+@import url(../blocks/input/_width/input_width_l.css);
+@import url(../blocks/input/_width/input_width_m.css);
+@import url(../blocks/input/_width/input_width_s.css);

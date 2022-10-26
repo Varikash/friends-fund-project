@@ -1,0 +1,8 @@
+.donation__donat-button_color_blue {
+  background-color: #528CBE;
+  transition: .5s;
+}
+
+.donation__donat-button:hover {
+  background-color: #487FAE;
+}
