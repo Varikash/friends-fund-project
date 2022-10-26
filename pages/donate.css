@@ -1,11 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
-@import url(../blocks/question/question.css);
-@import url(../blocks/question/__title/question__title.css);
-@import url(../blocks/question/__contact-info/question__contact-info.css);
-@import url(../blocks/question/__contact-zone/question__contact-zone.css);
-
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/root/root.css);
@@ -76,6 +71,11 @@
 @import url(../blocks/max-donation/__description/_visibility/max-donation__description_visibility.css);
 @import url(../blocks/max-donation/__card-frontside/max-donation__card-frontside.css);
 @import url(../blocks/max-donation/__fieldset-card/max-donation__fieldset-card.css);
+
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/__title/question__title.css);
+@import url(../blocks/question/__contact-info/question__contact-info.css);
+@import url(../blocks/question/__contact-zone/question__contact-zone.css);
 
 @import url(../blocks/achievements/achievements.css);
 @import url(../blocks/achievements/__list/achievements__list.css);
