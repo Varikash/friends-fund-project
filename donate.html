@@ -31,12 +31,11 @@
         <li><a href="#" class="header__language header__language_active link_hover_on">Ру</a></li>
         <li><a href="#" class="header__language link_hover_on">En</a></li>
       </ul>
-      <button class="header__button"><a class="header__button-text link_hover_on" href="./donate.html">Помочь фонду</a></button>
-      
+      <a class="header__button link_hover_on" href="./donate.html">Помочь фонду</a>
     </header>
     <main>
       <section class="max-donation" aria-label="donation">
-        <p class="max-donation__text">Поддерживая «Друзей» вы помогаете <span class="max-donation__text_font-style_italic">развитию всей индустрии</span></p>
+        <h1 class="max-donation__text">Поддерживая «Друзей» вы помогаете <span class="max-donation__text_font-style_italic">развитию всей индустрии</span></h1>
         <form class="max-donation__form" action="#">
           <p class="max-donation__title">Выберите тип и сумму пожертвования</p>
           <fieldset class="max-donation__fieldset">
@@ -73,7 +72,7 @@
             </label>       
             <label class="donation__label" for="sum5000r">
               <input type="radio" name="donation-sum" id="sum5000r" class="donation__item donation__item_el_donation-sum">
-              <span class=" donation__visible-radio donation__visible-radio_el_sum donation__visible-radio_pos_middle">5 000</span>
+              <span class="donation__visible-radio donation__visible-radio_el_sum donation__visible-radio_pos_middle">5 000</span>
             </label> 
             <label class="donation__label" for="sum10000r">
               <input type="radio" name="donation-sum" id="sum10000r" class="donation__item donation__item_el_donation-sum">
@@ -108,7 +107,7 @@
                 <input type="text" class="max-donation__field-card-num input input_width_xxl" id="field-card-num" name="field-card-num" placeholder="Номер карты" value="" required>
                 <input type="text" class="max-donation__field-card-owner input input_width_xxl" id="field-card-owner" name="field-card-owner" placeholder="Держатель карты" value="" required>
                 <p class="max-donation__subtitle-data">Действует до</p>
-                <input type="date" class="max-donation__field-card-data input input_width_m" id="field-card-data" name="field-card-data" placeholder="ММ / ГГ" value="" required>
+                <input type="text" class="max-donation__field-card-data input input_width_m" id="field-card-data" name="field-card-data" placeholder="ММ / ГГ" value="" required>
                 <div class="max-donation__fieldset-card-sum-info"> 
                   <p class="max-donation__subtitle-sum">Итого к оплате</p>
                   <input type="text" class="max-donation__field-card-sum" value="1000 &#8381;" readonly disabled>
@@ -120,7 +119,7 @@
               <fieldset class="max-donation__fieldset-contact">
                 <input type="text" class="max-donation__field-name input input_width_l" id="field-name" name="field-name" placeholder="Имя" value="" required>
                 <input type="text" class="max-donation__field-secondname input input_width_l" id="field-secondname" name="field-secondname" placeholder="Фамилия" value="" required>
-                <input type="tell" class="max-donation__field-tell input input_width_l" id="field-tell" name="field-tell" placeholder="Телефон" value="" required>
+                <input type="tel" class="max-donation__field-tell input input_width_l" id="field-tell" name="field-tell" placeholder="Телефон" value="" required>
                 <input type="email" class="max-donation__field-mail input input_width_l" id="field-mail" name="field-mail" placeholder="Email" value="" required>
               </fieldset>
             </div>
@@ -144,7 +143,7 @@
         <h2 class="question__title">Остались вопросы? Пишите и звоните нам</h2>
         <div class="question__contact-zone">
           <a class="question__contact-info" href="mailto:friends@friends-foundation.com">friends@friends-foundation.com</a>
-          <p class="question__contact-info">+7 977 277-07-17</p>
+          <a class="question__contact-info" href="tel:+79772770717">+7 977 277-07-17</a>
         </div>
       </section>
       <section class="achievements" aria-label="achievement">
@@ -178,7 +177,7 @@
       </section>
       <section class="helpful">
         <h2 class="helpful__title">Как еще 
-          <span class="helpful__title_cursive">вы можете помочь</span>
+          <span class="helpful__title helpful__title_cursive">вы можете помочь</span>
         </h2>
         <ul class="helpful__content">
       
@@ -188,17 +187,17 @@
               <p class="helpful__item-text">Помогая фондам своими профессиональными 
                 навыками, Вы сохраняете средства в бюджете организаций и 
                 позволяете им помочь еще большему количеству людей.</p>
-              <a class="helpful__item-url helpful__link about__fig-item_color_gray" href="https://procharity.ru/" target="_blank">
+              <a class="helpful__item-url helpful__link" href="https://procharity.ru/" target="_blank">
                 <p class="helpful__url-text">Перейти на сайт ProCharity</p>
                 <div class="helpful__item-arrow"></div>
               </a>  
             </div>
             <a class="helpful__url-img helpful__link" href="https://ru-ru.facebook.com/FriendsFund/" target="_blank">
-              <img class="url__image" src="./images/fb-screen.jpg" alt="сообщество Фонда Друзья в FaceBook">
+              <img class="url-image" src="./images/fb-screen.jpg" alt="сообщество Фонда Друзья в FaceBook">
             </a>
           </li>
       
-          <li class="helpful__item helpful__flex_reverse">
+          <li class="helpful__item helpful__item_reverse">
             <div class="helpful__text-block helpful__text-block_reverse">
               <h3 class="helpful__item-title">Стать попечителем</h3>
               <p class="helpful__item-text">Инвестируя в одну из программ фонда 
@@ -209,7 +208,7 @@
               <a class="helpful__item-e-mail helpful__link" href="mailto:e.gosteva@friends-foundation.com">e.gosteva@friends-foundation.com</a>
             </div>
             <a class="helpful__url-img helpful__link" href="https://www.instagram.com/friendsfund/" target="_blank">
-              <img class="url__image" src="./images/ig-screen.png" alt="сообщество Фонда Друзья в Instagram">
+              <img class="url-image" src="./images/ig-screen.png" alt="сообщество Фонда Друзья в Instagram">
             </a>
           </li>
       
@@ -243,11 +242,11 @@
       <section class="distribution">
         <div class="distribution__info">
           <h3 class="distribution__title">Подпишитесь на новостную рассылку/вебинары</h3>
-          <p class="distribution__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
+          <p class="distribution__subtitle">и получайте первыми наши новости и приглашения <br> на семинары/вебинары</p>
         </div>
         <form class="distribution__form" name="distribution-form" id="distribution-form" action="#">
           <fieldset class="distribution__fieldset">
-            <input type="text" class="distribution__field-mail" id="field-mail" name="field-mail" placeholder="&#9993; Введите ваш e-mail" value=""> <!-- доделать крестик очистки поля-->
+            <input type="email" class="distribution__field-mail" id="field-mailadress" name="field-mail" placeholder="&#9993; Введите ваш e-mail" value=""> <!-- доделать крестик очистки поля-->
           </fieldset>
           <button class="distribution__submit-button" type="submit" value="Подписаться" id="distribution-button">Подписаться</button>
         </form>
