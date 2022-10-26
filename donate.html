@@ -99,19 +99,45 @@
               <span class="donation__visible-radio_el_apple-pay donation__visible-radio_el_sum donation__visible-radio_size_big"></span>
             </label>  
           </fieldset> 
-          <p class="max-donation__title">Банковская карта</p>
-          <fieldset class="max-donation__fieldset-card">
-            <div class="max-donation__fieldset-card-frontside">
-              <input type="text" class="max-donation__field-card-num input input_width_l input_height_m input_color_light" id="field-card-num" name="field-card-num" placeholder="Номер карты" value="">
-              <input type="text" class="max-donation__field-card-owner input input_width_l input_height_m input_color_light" id="field-card-owner" name="field-card-owner" placeholder="Держатель карты" value="">
-              <p class="max-donation__subtitle">Действует до</p> <p class="max-donation__subtitle">Итого к оплате</p> <p>1000 &#8381;</p>
-              <input type="text" class="max-donation__field-card-data input input_width_m input_height_m input_color_light" id="field-card-data" name="field-card-data" placeholder="ММ / ГГ" value="">
+          <div class="max-donation__card-element">
+            <p class="max-donation__title">Банковская карта</p>
+            <div class="max-donation__card-form">
+              <div class="max-donation__card-frontside"></div>
+              <div class="max-donation__card-backside"></div>
+              <fieldset class="max-donation__fieldset-card">
+                <input type="text" class="max-donation__field-card-num input input_width_xxl" id="field-card-num" name="field-card-num" placeholder="Номер карты" value="" required>
+                <input type="text" class="max-donation__field-card-owner input input_width_xxl" id="field-card-owner" name="field-card-owner" placeholder="Держатель карты" value="" required>
+                <p class="max-donation__subtitle-data">Действует до</p>
+                <input type="datе" class="max-donation__field-card-data input input_width_m" id="field-card-data" name="field-card-data" placeholder="ММ / ГГ" value="" required>
+                <div class="max-donation__fieldset-card-sum-info"> 
+                  <p class="max-donation__subtitle-sum">Итого к оплате</p>
+                  <input type="text" class="max-donation__field-card-sum" value="1000 &#8381;" readonly disabled>
+                </div>
+                <p class=" max-donation__title-cvc">CVV / CVC</p>
+                <input type="text" class="max-donation__field-card-c input input_width_s" id="field-card-c" name="field-card-c" placeholder="&#8727;&#8727;&#8727;" value="" required>
+                <p class="max-donation__subtitle-cvc">Последние 3 цифры на белой полосе с обратной стороны карты</p>
+              </fieldset>
+              <fieldset class="max-donation__fieldset-contact">
+                <input type="text" class="max-donation__field-name input input_width_l" id="field-name" name="field-name" placeholder="Имя" value="" required>
+                <input type="text" class="max-donation__field-secondname input input_width_l" id="field-secondname" name="field-secondname" placeholder="Фамилия" value="" required>
+                <input type="tell" class="max-donation__field-tell input input_width_l" id="field-tell" name="field-tell" placeholder="Телефон" value="" required>
+                <input type="email" class="max-donation__field-mail input input_width_l" id="field-mail" name="field-mail" placeholder="Email" value="" required>
+              </fieldset>
             </div>
-            <div class="max-donation__fieldset-card-backside">
-            <input type="text" class="max-donation__field-card-c input input_width_s input_height_s input_color_light" id="field-card-c" name="field-card-c" placeholder="&#8727;&#8727;&#8727;" value="">
-            </div>
+          </div>
+          <fieldset class="max-donation__fieldset-agreement">
+            <label class="contact__checkbox-zone" for="offer">
+              <input class="contact__check-user-agreement" type="checkbox" name="offer" id="offer" required>
+              <span class="contact__check-on"></span>
+              Я согласен с <a class="contact__user-agreement" href="#">офертой</a>
+            </label>
+            <label class="contact__checkbox-zone" for="personal-data">
+              <input class="contact__check-user-agreement" type="checkbox" name="personal-data" id="personal-data" required>
+              <span class="contact__check-on"></span>
+              Ознакомился и согласен с <a class="contact__user-agreement" href="#">политикой обработки персональных данных</a>
+            </label>
           </fieldset>
-          <button class="donation__donat-button" type="button" value="Поддержать фонд" id="donation-button">Поддержать фонд</button>
+          <button class="donation__donat-button" type="submit" value="Поддержать фонд" id="donation-button">Поддержать фонд</button>
           </form>
       </section>
       <section class="question question_donate"> 
