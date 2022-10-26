@@ -17,6 +17,9 @@ const donationTimeSingle = document.querySelector('#single-donation');
 const donationText = document.querySelector('.max-donation__description');
 const monthlySum = document.querySelector('.max-donation__fieldset_closed');
 const singleSum = document.querySelector('#fieldset-single-sum');
+const bankCard = document.querySelector('.max-donation__card-element');
+const googlePay = document.querySelector('.donation__item_el_donation-google');
+const bankCardVisa = document.querySelector('#bank-card');
 
 const donation5000 = document.querySelector('#sum5000');
 const anotherSum = document.querySelector('.donation__field-sum');
@@ -85,6 +88,23 @@ donationTimeSingle.addEventListener('click', function() {
   closeMonthlyForm();
 });
 
+anotherSum.addEventListener('click',function(e) {
+  donation5000.checked = false;
+  donation10000.checked = false;
+  donation50000.checked = false;
+  donation10000r.checked = false;
+  donation5000r.checked = false;
+  donation1000.checked = false;
+});
+
+googlePay.addEventListener('click', function() {
+  bankCard.style.display='none';
+});
+
+bankCardVisa.addEventListener('click', function() {
+  bankCard.style.display='block';
+});
+
 /* ----------------------------Функции----------------------------------- */
 
 /**
@@ -114,11 +134,3 @@ function closeMonthlyForm() {
   singleSum.classList.remove('max-donation__fieldset_closed');
 }
 
-anotherSum.addEventListener('click',function(e) {
-  donation5000.checked = false;
-  donation10000.checked = false;
-  donation50000.checked = false;
-  donation10000r.checked = false;
-  donation5000r.checked = false;
-  donation1000.checked = false;
-});
