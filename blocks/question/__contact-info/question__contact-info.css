@@ -4,13 +4,13 @@
 	text-decoration: none;
 	color: #71BBCA;
 	font-weight: 400;
-	font-size: 45px;
+	font-size: 44px;
 	line-height: 60px;
 }
 
 @media screen and (max-width: 575px) {
 	.question__contact-info {
-		font-size: 32px;
+		font-size: 30px;
 		line-height: 40px;
 	}
 }
