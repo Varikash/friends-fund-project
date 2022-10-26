@@ -79,6 +79,7 @@
 @import url(../blocks/slider/__description/_theme/slider__description_theme_dark.css);
 @import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/slider/__text-container/slider__text-container.css);
+@import url(../blocks/slider/__text-container/_up/slider__text-container_up.css);
 @import url(../blocks/slider/__text-container/_reverse/slider__text-container_reverse.css);
 @import url(../blocks/slider/__title/_size/slider__title_size_s.css);
 @import url(../blocks/slider/__title/_size/slider__title_size_sm.css);
