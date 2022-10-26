@@ -149,6 +149,10 @@
   background-color: #F8F8F8;
 }
 
+.helpful__item-url:hover {
+  background-color: #F1F5F9;
+}
+
 @media screen and (max-width: 1166px) {
   .helpful__item-url {
     align-self: center;
@@ -164,14 +168,6 @@
 .helpful__link {
   cursor: pointer;
   transition: linear .5s;
-}
-
-.helpful__link:hover {
-  opacity: 0.5;
-}
-
-.helpful__link:active {
-  opacity: 0.8;
 }
 
 .helpful__url-text {
