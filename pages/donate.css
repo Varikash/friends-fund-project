@@ -6,7 +6,6 @@
 @import url(../blocks/question/__contact-info/question__contact-info.css);
 @import url(../blocks/question/__contact-zone/question__contact-zone.css);
 
-@import url('../blocks/helpful/helpful.css'); /*в разработке*/
 @import url('../blocks/contact/contact.css'); /*в разработке*/
 
 @import url(../blocks/page/page.css);
@@ -85,6 +84,29 @@
 @import url(../blocks/achievements/__text/achievements__text.css);
 @import url(../blocks/achievements/__text/_weight/achievements__text_weight_bold.css);
 @import url(../blocks/achievements/__digits/achievements__digit.css);
+
+@import url('../blocks/helpful/helpful.css');
+@import url('../blocks/helpful/__title/helpful__title.css');
+@import url('../blocks/helpful/__title/_cursive/helpful__title_cursive.css');
+@import url('../blocks/helpful/__content/helpful__content.css');
+@import url('../blocks/helpful/__item/helpful__item.css');
+@import url('../blocks/helpful/__item/_reverse/helpful__item_reverse.css');
+@import url('../blocks/helpful/__text-block/helpful__text-block.css');
+@import url('../blocks/helpful/__text-block/_reverse/helpful__text-block_reverse.css');
+@import url('../blocks/helpful/__item-title/helpful__item-title.css');
+@import url('../blocks/helpful/__item-text/helpful__item-text.css');
+@import url('../blocks/helpful/__item-url/helpful__item-url.css');
+@import url('../blocks/helpful/__link/helpful__link.css');
+@import url('../blocks/helpful/__url-text/helpful__url-text.css');
+@import url('../blocks/helpful/__item-arrow/helpful__item-arrow.css');
+@import url('../blocks/helpful/__url-img/helpful__url-img.css');
+@import url('../blocks/url-image/url-image.css');
+@import url('../blocks/helpful/__item-e-mail/helpful__item-e-mail.css');
+@import url('../blocks/helpful/__social-content/helpful__social-content.css');
+@import url('../blocks/helpful/__social-zone/helpful__social-zone.css');
+@import url('../blocks/helpful/__item-social/helpful__item-social.css');
+@import url('../blocks/helpful/__item-social/_logo/helpful__item-social_logo_vk.css');
+@import url('../blocks/helpful/__item-social/_logo/helpful__item-social_logo_tg.css');
 
 @import url(../blocks/distribution/distribution.css);
 @import url(../blocks/distribution/__info/distribution__info.css);
