@@ -2,6 +2,12 @@
   margin: 0px;
   padding: 0px;
   font-weight: 700;
-  font-size: 34px;
-  line-height: 35px;
+  font-size: 32px;
+  line-height: 1.03;
+}
+
+@media screen and (max-width: 500px) {
+  .distribution__title {
+    line-height: 1.17;
+  }
 }
