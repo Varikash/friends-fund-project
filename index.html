@@ -138,7 +138,7 @@
         </div>
       </section>
       <section class="programms">
-        <h2 class="programms__header">Наши программы</h2>
+        <h2 class="programms__header section-title">Наши программы</h2>
         <div class="procharity">
           <div class="info-block info-block_position_left">
             <p class="info-block__text-logo"><img src="./images/procharity__logo.svg" alt="логотип"
@@ -171,7 +171,7 @@
         </div>
       </section>
       <section class="values">
-        <h2 class="values__title">Наши ценности</h2>
+        <h2 class="values__title section-title">Наши ценности</h2>
         <ul class="values__list">
           <li class="values__list-item">
             <img src="./images/values1.svg" class="values__image" alt="иконка студента-выпускника">
@@ -231,26 +231,34 @@
       <section class="useful">
         <h2 class="useful__title">Полезно</h2>
         <ul class="useful__list">
-          <li class="useful__list-elem useful__list-elem_backgr_blue">
-            <h3 class="useful__list-title">Как научиться быть настоящим филантропом?</h3>
-            <p class="useful__list-subtitle">Читать</p>
+          <li class="useful__list-marg">
+            <a class="useful__list-elem useful__list-elem_backgr_blue" href="#">
+              <h3 class="useful__list-title">Как научиться быть настоящим филантропом?</h3>
+              <p class="useful__list-subtitle">Читать</p>
+            </a>
           </li>
-          <li class="useful__list-elem useful__list-elem_backgr_red">
-            <h3 class="useful__list-title">Лучшие книги о&nbsp;благотворительности</h3>
-            <p class="useful__list-subtitle">Читать</p>
+          <li class="useful__list-marg">
+            <a class="useful__list-elem useful__list-elem_backgr_red" href="#">
+              <h3 class="useful__list-title">Лучшие книги о&nbsp;благотворительности</h3>
+              <p class="useful__list-subtitle">Читать</p>
+            </a>
           </li>
-          <li class="useful__list-elem useful__list-elem_backgr_yell">
-            <h3 class="useful__list-title">Как проверить благотворительный фонд?</h3>
-            <p class="useful__list-subtitle">Читать</p>
+          <li class="useful__list-marg">
+            <a class="useful__list-elem useful__list-elem_backgr_yell" href="#">
+              <h3 class="useful__list-title">Как проверить благотворительный фонд?</h3>
+              <p class="useful__list-subtitle">Читать</p>
+            </a>
           </li>
-          <li class="useful__list-elem useful__list-elem_backgr_blueb">
-            <h3 class="useful__list-title">Отчетность фонда</h3>
-            <p class="useful__list-subtitle">Смотреть</p>
+          <li class="useful__list-marg">
+            <a class="useful__list-elem useful__list-elem_backgr_blueb" href="#">
+              <h3 class="useful__list-title">Отчетность фонда</h3>
+              <p class="useful__list-subtitle">Смотреть</p>
+            </a>
           </li>
         </ul>
       </section>
       <section class="friends">
-        <h2 class="friends__title">Наши друзья</h2>
+        <h2 class="friends__title section-title">Наши друзья</h2>
         <div class="slider" id="friends" data-slider>
           <div class="slider__container">
             <div class="slider__items">
@@ -463,13 +471,13 @@
       </section>
       <section class="distribution">
         <div class="distribution__info">
-          <h3 class="distribution__title">Подпишитесь на новостную рассылку/вебинары</h3>
+          <h3 class="distribution__title">Подпишитесь на&nbsp;новостную рассылку/вебинары</h3>
           <p class="distribution__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
         </div>
         <form class="distribution__form" name="distribution-form" id="distribution-form" action="#">
           <fieldset class="distribution__fieldset">
-            <input type="text" class="distribution__field-mail" id="field-mail" name="field-mail"
-              placeholder="&#9993; Введите ваш e-mail" value=""> <!-- доделать крестик очистки поля-->
+            <input type="email" class="distribution__field-mail" id="field-mail" name="field-mail"
+              placeholder="&#9993; Введите ваш e-mail" value="">
           </fieldset>
           <button class="distribution__submit-button" type="submit" value="Подписаться"
             id="distribution-button">Подписаться</button>
@@ -551,7 +559,7 @@
     </main>
     <footer class="footer">
       <div class="footer__navigation-bar">
-        <img src="./images/footer-logo.svg" alt="logo" class="footer__logo">
+        <img src="./images/footer-logo.svg" alt="логотип фонда друзья" class="footer__logo">
         <nav class="footer__navigation navigation">
           <ul
             class="navigation-links navigation-links_status_mobile navigation-links_direction_row footer_navigation-gap_standart">
@@ -582,7 +590,6 @@
           </ul>
         </nav>
       </div>
-      <div class="footer__contact-bar">
         <ul class="footer__contact-list">
           <li>
             <p class="footer__contact">Написать нам:&ensp;<a href="mailto:friends@friends-foundation.com"
@@ -601,7 +608,6 @@
             </div>
           </li>
         </ul>
-      </div>
       <div class="footer__rights">
         <div class="footer__age">
           <img src="./images/age-sign_footer.svg" alt="+18">
@@ -613,7 +619,7 @@
             Любое размещение материалов на&nbsp;сторонних ресурсах необходимо согласовывать с&nbsp;правообладателями.
           </p>
 
-          <img src="./images/dun&bradstreet.svg" alt="dun&bradstreet">
+          <img src="./images/dun&bradstreet.svg" alt="логотип">
         </div>
       </div>
     </footer>

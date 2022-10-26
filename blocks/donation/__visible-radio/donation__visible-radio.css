@@ -8,9 +8,25 @@
   font-weight: 700;
   line-height: 20px;
   cursor: pointer;
+  transition: .5s;
 }
 
 .donation__visible-radio:hover {
   background-color: #82607D;
   color: white;
+}
+
+input[id='single-donation']:checked + .donation__visible-radio {
+  background-color: #82607D; 
+  z-index: 3;
+  color: #F8F8F8;
+  transition: background-color 2s;
+}
+
+
+input[id='monthly-donation']:checked + .donation__visible-radio {
+  background-color: #82607D; 
+  z-index: 3;
+  color: #F8F8F8;
+  transition: background-color 2s;
 }

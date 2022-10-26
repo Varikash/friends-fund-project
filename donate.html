@@ -31,7 +31,7 @@
         <li><a href="#" class="header__language header__language_active link_hover_on">Ру</a></li>
         <li><a href="#" class="header__language link_hover_on">En</a></li>
       </ul>
-      <a class="header__button link_hover_on" href="./donate.html">Помочь фонду</a>
+      <button class="header__button"><a class="header__button-text link_hover_on" href="./donate.html">Помочь фонду</a></button>
       
     </header>
     <main>
@@ -73,7 +73,7 @@
             </label>       
             <label class="donation__label" for="sum5000r">
               <input type="radio" name="donation-sum" id="sum5000r" class="donation__item donation__item_el_donation-sum">
-              <span class="donation__visible-radio donation__visible-radio_el_sum donation__visible-radio_pos_middle">5 000</span>
+              <span class=" donation__visible-radio donation__visible-radio_el_sum donation__visible-radio_pos_middle">5 000</span>
             </label> 
             <label class="donation__label" for="sum10000r">
               <input type="radio" name="donation-sum" id="sum10000r" class="donation__item donation__item_el_donation-sum">
@@ -88,7 +88,7 @@
           <fieldset class="max-donation__fieldset">
             <label class="donation__label" for="bank-card">
               <input type="radio" name="donation-way" id="bank-card" class="donation__item donation__item_el_donation-sum">
-              <span class="donation__visible-radio donation__visible-radio_el_sum"><img src="/images/viza+mir.svg" alt=""></span>
+              <span class="donation__visible-radio donation__visible-radio_el_sum"><img src="/images/viza+mir.svg" alt="карты виза мир"></span>
             </label>       
             <label class="donation__label" for="google-pay">
               <input type="radio" name="donation-way" id="google-pay" class="donation__item donation__item_el_donation-google">
@@ -137,14 +137,14 @@
               Ознакомился и согласен с <a class="contact__user-agreement" href="#">политикой обработки персональных данных</a>
             </label>
           </fieldset>
-          <button class="donation__donat-button" type="submit" value="Поддержать фонд" id="donation-button">Поддержать фонд</button>
+          <button class="donation__donat-button" type="button" value="Поддержать фонд" id="donation-button">Поддержать фонд</button>
           </form>
       </section>
       <section class="question question_donate"> 
         <h2 class="question__title">Остались вопросы? Пишите и звоните нам</h2>
         <div class="question__contact-zone">
           <a class="question__contact-info" href="mailto:friends@friends-foundation.com">friends@friends-foundation.com</a>
-          <a class="question__contact-info" href="tel:+79772770717">+7 977 277-07-17</a>
+          <p class="question__contact-info">+7 977 277-07-17</p>
         </div>
       </section>
       <section class="achievements" aria-label="achievement">
@@ -178,7 +178,7 @@
       </section>
       <section class="helpful">
         <h2 class="helpful__title">Как еще 
-          <span class="helpful__title helpful__title_cursive">вы можете помочь</span>
+          <span class="helpful__title_cursive">вы можете помочь</span>
         </h2>
         <ul class="helpful__content">
       
@@ -188,17 +188,17 @@
               <p class="helpful__item-text">Помогая фондам своими профессиональными 
                 навыками, Вы сохраняете средства в бюджете организаций и 
                 позволяете им помочь еще большему количеству людей.</p>
-              <a class="helpful__item-url helpful__link" href="https://procharity.ru/" target="_blank">
+              <a class="helpful__item-url helpful__link about__fig-item_color_gray" href="https://procharity.ru/" target="_blank">
                 <p class="helpful__url-text">Перейти на сайт ProCharity</p>
                 <div class="helpful__item-arrow"></div>
               </a>  
             </div>
             <a class="helpful__url-img helpful__link" href="https://ru-ru.facebook.com/FriendsFund/" target="_blank">
-              <img class="url-image" src="./images/fb-screen.jpg" alt="сообщество Фонда Друзья в FaceBook">
+              <img class="url__image" src="./images/fb-screen.jpg" alt="сообщество Фонда Друзья в FaceBook">
             </a>
           </li>
       
-          <li class="helpful__item helpful__item_reverse">
+          <li class="helpful__item helpful__flex_reverse">
             <div class="helpful__text-block helpful__text-block_reverse">
               <h3 class="helpful__item-title">Стать попечителем</h3>
               <p class="helpful__item-text">Инвестируя в одну из программ фонда 
@@ -209,7 +209,7 @@
               <a class="helpful__item-e-mail helpful__link" href="mailto:e.gosteva@friends-foundation.com">e.gosteva@friends-foundation.com</a>
             </div>
             <a class="helpful__url-img helpful__link" href="https://www.instagram.com/friendsfund/" target="_blank">
-              <img class="url-image" src="./images/ig-screen.png" alt="сообщество Фонда Друзья в Instagram">
+              <img class="url__image" src="./images/ig-screen.png" alt="сообщество Фонда Друзья в Instagram">
             </a>
           </li>
       
@@ -243,7 +243,7 @@
       <section class="distribution">
         <div class="distribution__info">
           <h3 class="distribution__title">Подпишитесь на новостную рассылку/вебинары</h3>
-          <p class="distribution__subtitle">и получайте первыми наши новости и приглашения <br> на семинары/вебинары</p>
+          <p class="distribution__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
         </div>
         <form class="distribution__form" name="distribution-form" id="distribution-form" action="#">
           <fieldset class="distribution__fieldset">

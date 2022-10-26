@@ -1,6 +1,6 @@
 .blog__link {
   margin: 0 auto;
-  display: block;
+  display: inline-block;
   background-color: #F8F8F8;
   padding: 18px 110px;
   text-decoration: none;
@@ -10,6 +10,13 @@
   font-size: 16px;
   line-height: 20px;
   transition: .5s;
+  align-self: center;
+}
+
+@media screen and  (max-width: 768px) {
+  .blog__link {
+    margin: 0;
+  }
 }
 
 .blog__link:hover {

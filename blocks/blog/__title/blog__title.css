@@ -1,15 +1,16 @@
 .blog__title {
   font-style: normal;
   font-weight: 700;
-  font-size: 44px;
-  line-height: 50px;
-  margin-bottom: 56px;
+  font-size: 42px;
+  line-height: 1.136;
+  margin: 160px 0px 56px;
+  color: #000000;
 }
 
 @media screen and (max-width: 426px) {
   .blog__title {
-    font-size: 32px;
-    line-height: 44px;
-    margin-bottom: 8px;
+    font-size: 30px;
+    line-height: 1.375;
+    margin: 15px 0px 24px;
   }
 }
