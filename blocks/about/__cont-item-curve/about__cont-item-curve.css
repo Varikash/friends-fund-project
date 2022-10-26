@@ -1,0 +1,26 @@
+.about__cont-item-curve {
+  position: relative;
+  z-index: 4;
+  margin: -52px 16.2% 0 auto;
+  background-color: #DE6F7E;
+}
+
+@media screen and (max-width: 1000px) {
+  .about__cont-item-curve {
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about__cont-item-curve {
+    z-index: 3;
+    margin-top: -7px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about__cont-item-curve {
+    width: 300px;
+    margin-right: 5.5%;
+  }
+}

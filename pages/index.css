@@ -38,7 +38,7 @@
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__button-text/header__button-text.css);
 
-@import url('../blocks/about/about.css'); /*в разработке*/
+
 
 @import url(../blocks/popup-menu-1/popup-menu-1.css);
 @import url(../blocks/popup/popup.css);
@@ -105,6 +105,24 @@
 @import url(../blocks/slider/__item/_logo/slider__item_logo_all.css);
 @import url(../blocks/slider/__link/slider__link.css);
 
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__text-zone/about__text-zone.css');
+@import url('../blocks/about/__question/about__question.css');
+@import url('../blocks/about/__answer-zone/about__answer-zone.css');
+@import url('../blocks/about/__answer/about__answer.css');
+@import url('../blocks/about/__answer/_bold/about__answer_bold.css');
+@import url('../blocks/about/__fig-zone/about__fig-zone.css');
+@import url('../blocks/about/__content-fig/about__content-fig.css');
+@import url('../blocks/about/__fig-item/about__fig-item.css');
+@import url('../blocks/about/__cont-item-bulb/about__cont-item-bulb.css');
+@import url('../blocks/about/__cont-item-book/about__cont-item-book.css');
+@import url('../blocks/about/__cont-item-curve/about__cont-item-curve.css');
+@import url('../blocks/about/__cont-item-briefcase/about__cont-item-briefcase.css');
+@import url('../blocks/about/__bulb/about__bulb.css');
+@import url('../blocks/about/__book/about__book.css');
+@import url('../blocks/about/__curve/about__curve.css');
+@import url('../blocks/about/__briefcase/about__briefcase.css');
+@import url('../blocks/about/__activity/about__activity.css');
 
 @import url(../blocks/friends/friends.css);
 @import url(../blocks/friends/__title/friends__title.css);
@@ -226,3 +244,4 @@
 @import url(../blocks/useful/__list-title/useful__list-title.css);
 @import url(../blocks/useful/__list-subtitle/useful__list-subtitle.css);
 @import url(../blocks/useful/__list-marg/useful__list-marg.css);
+

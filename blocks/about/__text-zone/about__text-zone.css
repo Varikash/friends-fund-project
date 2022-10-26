@@ -1,0 +1,18 @@
+.about__text-zone {
+  display: flex;
+  gap: 2%;
+  max-width: 1032px;
+}
+
+@media screen and (max-width: 880px) {
+  .about__text-zone {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__text-zone {
+    padding: 0 24px;
+  }
+}
