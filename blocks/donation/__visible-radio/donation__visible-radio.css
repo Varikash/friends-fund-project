@@ -8,6 +8,7 @@
   font-weight: 700;
   line-height: 20px;
   cursor: pointer;
+  transition: .5s;
 }
 
 .donation__visible-radio:hover {
