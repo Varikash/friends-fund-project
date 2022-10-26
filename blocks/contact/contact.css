@@ -157,8 +157,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   background-color: #fff;
   border: 1px solid #000;
   border-radius: 4px;
@@ -177,8 +177,6 @@
 
 .contact__checkbox-zone .contact__check-user-agreement:checked ~ .contact__check-on {
   background-color: #54a8b6;
-  width: 18px;
-  height: 18px;
   border: none;
   background-image: url('../../images/union-white.svg');
   background-repeat: no-repeat;
