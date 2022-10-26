@@ -1,0 +1,21 @@
+.max-donation__card-frontside {
+  width: 364px;
+  height: 267px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  background-color: #F8F8F8;;
+  border-radius: 8px;
+}
+
+.max-donation__card-backside {
+  width: 369px;
+  height: 244px;
+  position: absolute;
+  top: 29px;
+  left: 183px;
+  z-index: 1;
+  background: linear-gradient(#E5E5E5, #E5E5E5 10.2%, #D0CFCC 10.2%, #D0CFCC 31.5%, #E5E5E5 31.5%);
+  border-radius: 8px;
+}
