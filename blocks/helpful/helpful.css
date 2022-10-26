@@ -88,7 +88,7 @@
   }
 }
 
-.helpful__flex_reverse {
+.helpful__item_reverse {
   justify-content: space-between;
   flex-direction: row-reverse;
   align-items: flex-end;
@@ -191,7 +191,7 @@
   
 }
 
-.url__image {
+.url-image {
   width: 100%;
 }
 
