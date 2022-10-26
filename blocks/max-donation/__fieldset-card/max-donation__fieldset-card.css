@@ -9,6 +9,12 @@
   gap: 43px;
 }
 
+@media screen and (max-width: 750px) {
+  .max-donation__card-element {
+    display: none;
+  }
+}
+
 .max-donation__fieldset-card {
   margin: 0;
   padding: 0;
