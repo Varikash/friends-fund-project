@@ -6,6 +6,7 @@
 @media screen and (max-widtH: 999px) {
   .achievements__digit {
     font-size: 54px;
+    line-height: 77px;
     margin: 50px;
   }
 }
