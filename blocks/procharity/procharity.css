@@ -1,7 +1,7 @@
 .procharity {
   box-sizing: border-box;
   background-color: #77C5D5;
-  height: 490px;
+  min-height: 490px;
   background-image: url(../../images/procharity__image.svg);
   background-position: right bottom;
   background-repeat: no-repeat;
