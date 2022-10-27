@@ -6,6 +6,12 @@
 	font-weight: 400;
 	font-size: 44px;
 	line-height: 60px;
+	transition: linear .5s;
+}
+
+.question__contact-info:hover {
+	cursor: pointer;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 575px) {
