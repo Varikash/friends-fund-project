@@ -1,0 +1,9 @@
+.max-donation__fieldset-contact {
+  max-width: 552px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
