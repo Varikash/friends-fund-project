@@ -4,6 +4,7 @@
   font-size: 62px;
   line-height: 66px;
   font-style: italic;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 @media screen and (max-width: 768px) {

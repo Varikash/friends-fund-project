@@ -1,0 +1,9 @@
+.max-donation__fieldset-agreement {
+  max-width: 552px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 32px 0px 0px;
+  border: 0;
+}

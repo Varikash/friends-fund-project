@@ -44,13 +44,12 @@
 @import url(../blocks/donation/__item/donation__item.css);
 @import url(../blocks/donation/__visible-radio/donation__visible-radio.css);
 @import url(../blocks/donation/__fieldset/donation__fieldset.css);
-@import url(../blocks/donation/__item/_el/donation__item_el_donation-sum.css);
-@import url(../blocks/donation/__visible-radio/_pos/donation__visible-radio_pos_right.css);
-@import url(../blocks/donation/__visible-radio/_pos/donation__visible-radio_pos_left.css);
+@import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_monthly.css);
+@import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_single.css);
 @import url(../blocks/donation/__item/_el/donation__item_el_donation-time.css);
 @import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_time.css);
 @import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_sum.css);
-@import url(../blocks/donation/__visible-radio/_pos/donation__visible-radio_pos_middle.css);
+@import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_big.css);
 @import url(../blocks/donation/__field-sum/donation__field-sum.css);
 @import url(../blocks/donation/__symbol/donation__symbol.css);
 @import url(../blocks/donation/__donat-button/donation__donat-button.css);
@@ -58,10 +57,8 @@
 @import url(../blocks/max-donation/__sumbol/max-donation__sumbol.css);
 @import url(../blocks/donation/__donat-button/_color/donation__donat-button_color_blue.css);
 
-@import url(../blocks/donation/__item/_el/donation__item_el_donation-google.css);
 @import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_google-pay.css);
 @import url(../blocks/donation/__visible-radio/_el/donation__visible-radio_el_apple-pay.css);
-@import url(../blocks/donation/__item/_el/donation__item_el_donation-apple.css);
 @import url(../blocks/donation/__visible-radio/_size/donation__visible-radio_size_big.css);
 @import url(../blocks/max-donation/__description/max-donation__description.css);
 @import url(../blocks/max-donation/__fieldset-card-frontside/max-donation__fieldset-card-frontside.css);
@@ -70,6 +67,25 @@
 @import url(../blocks/max-donation/__description/_visibility/max-donation__description_visibility.css);
 @import url(../blocks/max-donation/__card-frontside/max-donation__card-frontside.css);
 @import url(../blocks/max-donation/__fieldset-card/max-donation__fieldset-card.css);
+@import url(../blocks/max-donation/__card-backside/max-donation__card-backside.css);
+@import url(../blocks/max-donation/__card-form/max-donation__card-form.css);
+@import url(../blocks/max-donation/__card-element/max-donation__card-element.css);
+@import url(../blocks/max-donation/__field-card-num/max-donation__field-card-num.css);
+@import url(../blocks/max-donation/__field-card-owner/max-donation__field-card-owner.css);
+@import url(../blocks/max-donation/__field-card-data/max-donation__field-card-data.css);
+@import url(../blocks/max-donation/__field-card-c/max-donation__field-card-c.css);
+@import url(../blocks/max-donation/__title-cvc/max-donation__title-cvc.css);
+@import url(../blocks/max-donation/__subtitle-cvc/max-donation__subtitle-cvc.css);
+@import url(../blocks/max-donation/__subtitle-data/max-donation__subtitle-data.css);
+@import url(../blocks/max-donation/__fieldset-card-sum-info/max-donation__fieldset-card-sum-info.css);
+@import url(../blocks/max-donation/__subtitle-sum/max-donation__subtitle-sum.css);
+@import url(../blocks/max-donation/__field-card-sum/max-donation__field-card-sum.css);
+@import url(../blocks/max-donation/__fieldset-contact/max-donation__fieldset-contact.css);
+@import url(../blocks/max-donation/__field-name/max-donation__field-name.css);
+@import url(../blocks/max-donation/__field-secondname/max-donation__field-secondname.css);
+@import url(../blocks/max-donation/__field-tell/max-donation__field-tell.css);
+@import url(../blocks/max-donation/__field-mail/max-donation__field-mail.css);
+@import url(../blocks/max-donation/__fieldset-agreement/max-donation__fieldset-agreement.css);
 
 @import url(../blocks/question/question.css);
 @import url(../blocks/question/__title/question__title.css);

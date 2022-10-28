@@ -1,0 +1,8 @@
+.max-donation__fieldset-card-sum-info {
+  grid-area: sum;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 18px;
+  box-sizing: border-box;
+}

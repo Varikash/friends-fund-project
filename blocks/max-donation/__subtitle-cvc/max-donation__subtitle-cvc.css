@@ -1,0 +1,9 @@
+.max-donation__subtitle-cvc {
+  grid-area: csb;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  padding: 4px 0px 0px;
+  margin: 0px;
+}
