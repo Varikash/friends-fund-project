@@ -5,3 +5,7 @@
   font-size: 20px;
   line-height: 33px;
 }
+
+.helpful__item-e-mail:hover {
+  opacity: 0.5;
+}

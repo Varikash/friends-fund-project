@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 600px) {
   .about__content-fig {
+    padding-top: 34px;
     margin: 0 8px;
   }
 }

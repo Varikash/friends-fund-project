@@ -1,8 +1,7 @@
 .philanthropy {
   box-sizing: border-box;
-  padding-left: 600px;
   background-color: #528CBE;
-  height: 490px;
+  min-height: 490px;
   display: flex;
   align-items: center;
   justify-content: flex-end;

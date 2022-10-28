@@ -1,9 +1,9 @@
 const menuIcon = document.querySelector('.menu-icon');
-const closeBtn = document.querySelector('.popup-menu-1__close-btn');
-const backwardBtn = document.querySelector('.popup-menu-2__backward');
+const closeBtn = document.querySelector('.popup-menu-one__close-btn');
+const backwardBtn = document.querySelector('.popup-menu-two__backward');
 const secondLevelPopupOpener = document.querySelector('#secondLevel');
-const popupOne = document.querySelector('.popup-menu-1');
-const popupTwo = document.querySelector('.popup-menu-2');
+const popupOne = document.querySelector('.popup-menu-one');
+const popupTwo = document.querySelector('.popup-menu-two');
 
 const donation5000 = document.querySelector('#sum5000');
 const anotherSum = document.querySelector('.donation__field-sum');

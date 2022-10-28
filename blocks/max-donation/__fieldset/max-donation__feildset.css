@@ -16,10 +16,6 @@
   @media screen and (max-width: 768px) {
     .max-donation__fieldset {
       display: flex;
-    }
-  }
-  @media screen and (max-width: 767px) {
-    .max-donation__fieldset {
       flex-wrap: wrap;
       justify-content: center;
     }

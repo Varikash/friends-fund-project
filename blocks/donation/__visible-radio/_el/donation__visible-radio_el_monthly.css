@@ -1,0 +1,9 @@
+.donation__visible-radio_el_monthly {
+  margin-right: 56px;
+}
+
+@media screen and (max-width: 555px) {
+  .donation__visible-radio_el_monthly {
+    margin-right: 20px;
+  }
+}

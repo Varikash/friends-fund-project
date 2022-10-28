@@ -5,3 +5,7 @@
   background-size: contain;
   box-sizing: border-box;
 }
+
+.helpful__item-social:hover {
+  opacity: 0.5;
+}

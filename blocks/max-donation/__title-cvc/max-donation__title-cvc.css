@@ -1,0 +1,8 @@
+.max-donation__title-cvc {
+  grid-area: ctt;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  align-self: end;
+}

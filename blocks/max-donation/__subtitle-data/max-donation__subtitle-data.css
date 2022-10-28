@@ -1,0 +1,9 @@
+.max-donation__subtitle-data {
+  grid-area: dsb;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+  padding: 0px;
+  margin: 0px;
+}

@@ -1,7 +1,0 @@
-.donation__item_el_donation-google:checked + .donation__visible-radio_el_google-pay {
-  transition: background-image  1s;
-  background-image: url(/images/gogle-pay-checked.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- }

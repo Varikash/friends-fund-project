@@ -1,9 +1,0 @@
-.donation__visible-radio_pos_right {
-  margin-right: 56px;
-}
-
-@media screen and (max-width: 555px) {
-  .donation__visible-radio_pos_right {
-    margin-right: 20px;
-  }
-}
