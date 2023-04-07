@@ -7,7 +7,7 @@
   gap: 24px;
 }
 
-@media screen and (max-width: 1296px) {
+@media screen and (max-width: 1274px) {
   .useful__list {
     width: 100%;
     flex-direction: column;

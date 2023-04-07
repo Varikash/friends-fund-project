@@ -1,6 +1,6 @@
 .prof-team {
   box-sizing: border-box;
-  height: 490px;
+  min-height: 490px;
   background-color: #F47B8B;
   display: flex;
   align-items: center;

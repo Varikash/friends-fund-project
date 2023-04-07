@@ -1,0 +1,6 @@
+.max-donation__field-card-num {
+  grid-area: num;
+  padding: 18px 17px 18px 17px;
+  background: #FFFFFF;
+  height: 56px;
+}
